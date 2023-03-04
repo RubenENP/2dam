@@ -1,0 +1,27 @@
+
+V	java:S125;"<This block of commented-out lines of code should be removed.(¦¡ìüÿÿÿÿ
+v
+java:S3923D"[Remove this conditional structure or edit its code blocks so that they're not all the same.(ãÙíÉùÿÿÿÿ
+V	java:S125F"<This block of commented-out lines of code should be removed.(€ğÇ¸ÿÿÿÿÿ
+Q	java:S125H"<This block of commented-out lines of code should be removed.(Õêú§
+Q	java:S125K"<This block of commented-out lines of code should be removed.(½Šµ
+^
+java:S1854Z"CRemove this useless assignment to local variable "articletypeName".(µÃ†¨şÿÿÿÿ
+\
+java:S1854X"ARemove this useless assignment to local variable "newspaperName".(›òÛüÿÿÿÿ
+U
+java:S1854V"?Remove this useless assignment to local variable "description".(ìË¼ö
+N
+java:S1854T"9Remove this useless assignment to local variable "title".(²¸æC
+?
+java:S1481T"*Remove this unused "title" local variable.(²¸æC
+F
+java:S1481V"0Remove this unused "description" local variable.(ìË¼ö
+M
+java:S1481X"2Remove this unused "newspaperName" local variable.(›òÛüÿÿÿÿ
+O
+java:S1481Z"4Remove this unused "articletypeName" local variable.(µÃ†¨şÿÿÿÿ
+Q	java:S125\"<This block of commented-out lines of code should be removed.(¦ïÅÉ
+Q	java:S125^"<This block of commented-out lines of code should be removed.(îµÑ¯
+I
+java:S1144f".Remove this unused private "showAlert" method.(š¹şÿÿÿÿ

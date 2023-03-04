@@ -1,0 +1,3 @@
+1;Sports
+2;Political
+3;Economy

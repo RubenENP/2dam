@@ -1,0 +1,77 @@
+@startuml
+
+class Dungeon{
+    -ArrayList<Room> rooms
+    +void generateCrystals(int maxElements, int maxCapacity)
+    +ArrayList<Room>getRooms()
+}
+
+class Room{
+    -int ID
+    -boolean exit
+    -String descripcion
+    -ArrayList<Crystal> crystals
+    -ArrayList<StorableItem> items
+    -Creature creature
+    +int getID()
+    +String getDescription()
+    +boolean isExit()
+    +void generateCrystals(int maxElements, int maxCapacity)
+    +int numberOfCrystals()
+    +Crystal gather()
+    +ArrayList<StorableItem> getItems()
+    +void addItem(StorableItem s)
+    +void removeItem (StorableItem s)
+    +Creature getCreature()
+    +void setCreature(Creature c)
+    +String toString()
+}
+
+class Site{
+    -ArrayList<Door> doors;
+    +int numberOfDoors()
+    +void addDoor(Door p)
+    +Site useDoor(int index)
+    +Site sniffDoor(int index)
+    +ArrayList<Door> getDoors()
+    +Door doorAt(int index)
+    +Site useDoor(Door p)
+}
+
+class Door{
+    -Site a;
+    -Site b;
+    -boolean used = false;
+    -Site getOtherSite(Site current)
+    +boolean isUsed()
+    +Site openFrom(Site current)
+    +Site sniffFrom(Site current)
+}
+
+class Home{
+    -int comfort;
+    -final AttributeControl singa;
+    -int capacity;
+    -final ArrayList<StorableItem> items;
+    +int getComfort()
+    +void upgradeComfort()
+    +int getSinga()
+    +void mergeCrystal(Crystal c)
+    +void useSinga(int s) throws HomeNoSingaException
+    +int getMaxSinga()
+    +void emptySinga()
+    +void upgradeMaxSinga(int s)
+    +int getSpaceForSinga()
+    +ArrayList<StorableItem> getStorage()
+    +boolean isStorageFull()
+    +String toString()
+}
+
+Room <- Dungeon
+
+Site <-- Door
+Door <-- Site
+
+Site <-- Home: extends
+
+@enduml

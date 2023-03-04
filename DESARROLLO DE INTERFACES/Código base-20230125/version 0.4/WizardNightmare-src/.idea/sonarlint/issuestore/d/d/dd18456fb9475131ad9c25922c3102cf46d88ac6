@@ -1,0 +1,70 @@
+
+a	java:S112…"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+\	java:S112Œ"FDefine and throw a dedicated exception instead of using a generic one.(ğú§Ó
+b
+java:S1192†"FDefine a constant instead of duplicating this literal "level" 4 times.(¬ú‚Ùûÿÿÿÿ
+^
+java:S1192…"GDefine a constant instead of duplicating this literal "domain" 5 times.(ûÄ­â
+P
+java:S1141c"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+f	java:S117_"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒØ¸
+k	java:S117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑĞæÂÿÿÿÿÿ
+g
+java:S1301Ñ"KReplace this "switch" statement by "if" statements to increase readability.(Ò®ÿÁıÿÿÿÿ
+I
+java:S2755n"3Disable access to external entities in XML parsing.(²µŸš
+I
+java:S2755e"3Disable access to external entities in XML parsing.(‹ñšÑ
+v
+java:S30087"[Rename this field "DESCRIPTION_HOME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Œáòÿÿÿÿÿ
+p
+java:S30088"ZRename this field "INITIAL_COMFORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖŠĞš
+s
+java:S30089"XRename this field "INITIAL_SINGA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄóÁµşÿÿÿÿ
+w
+java:S3008:"aRename this field "INITIAL_SINGA_CAPACITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¶Á°
+|
+java:S3008;"aRename this field "INITIAL_CHEST_CAPACITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ‡Ì ùÿÿÿÿ
+q
+java:S3008="VRename this field "CHEST_ITEMS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÔËşÿÿÿÿ
+e
+java:S3008?"PRename this field "CHEST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¿òC
+h
+java:S3008B"RRename this field "LIBRARY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–°«Ç
+o
+java:S3008D"YRename this field "LIBRARY_SPELLS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚“ÎÜ
+r
+java:S3008H"WRename this field "INITIAL_LIFE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨×Îşûÿÿÿÿ
+q
+java:S3008I"[Rename this field "INITIAL_LIFE_MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ŒŒ¦
+n
+java:S3008J"YRename this field "INITIAL_ENERGY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÿ±j
+s
+java:S3008K"]Rename this field "INITIAL_ENERGY_MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Êˆó
+
+java:S3008L"kRename this field "INITIAL_CRYSTAL_CARRIER_CAPACITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»”¥Ä
+}
+java:S3008M"gRename this field "INITIAL_CRYSTAL_BAG_CAPACITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„µÑ¬
+y
+java:S3008N"^Rename this field "INITIAL_MAX_WEAPONS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚°‹¿şÿÿÿÿ
+{
+java:S3008O"`Rename this field "INITIAL_MAX_NECKLACES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úœÙğıÿÿÿÿ
+w
+java:S3008P"\Rename this field "INITIAL_MAX_RINGS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÇßÿıÿÿÿÿ
+œ
+java:S1186T"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹‘¶Üúÿÿÿÿ
+œ
+java:S1186X"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‡ˆæœùÿÿÿÿ
+S	java:S106j"9Replace this use of System.out or System.err by a logger.(²àéÁüÿÿÿÿ
+M	java:S106r"9Replace this use of System.out or System.err by a logger.(öÓÜ
+h
+java:S3776Œ"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(÷ËÜx
+Q	java:S125µ"<This block of commented-out lines of code should be removed.(¦‚Ï
+R	java:S125¹"<This block of commented-out lines of code should be removed.( ú’µ
+=	java:S131Ñ""Add a default case to this switch.(Ò®ÿÁıÿÿÿÿ
+R	java:S125Ô"<This block of commented-out lines of code should be removed.(Ùéâõ
+W	java:S125à"<This block of commented-out lines of code should be removed.(ƒû§ìúÿÿÿÿ
+T	java:S106é"9Replace this use of System.out or System.err by a logger.(¶âåŸşÿÿÿÿ
+=	java:S131Æ""Add a default case to this switch.(ÿüëÚùÿÿÿÿ
+Y
+java:S3252ˆ"=Use static access with "org.w3c.dom.Node" for "ELEMENT_NODE".(¸‹ÿ¶úÿÿÿÿ

@@ -1,0 +1,9 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ø´Á
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ£ïÉ
+b	java:S116
+"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÌèš
+D
+java:S21402")Use "java.util.Random.nextInt()" instead.(¦Äƒ–þÿÿÿÿ
+M
+java:S1117["8Rename "exit" which hides the field declared at line 11.(þÛ”\

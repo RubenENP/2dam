@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.PrincipalController">
+    <TableView fx:id="newspaperTable" layoutX="25.0" layoutY="42.0" prefHeight="200.0" prefWidth="200.0">
+      <columns>
+          <TableColumn fx:id="newspaperNameColumn" prefWidth="94.4000244140625" text="name" />
+          <TableColumn fx:id="newspaperReleaseDateolumn" prefWidth="104.79998779296875" text="releaseDate" />
+      </columns>
+    </TableView>
+    <Button layoutX="236.0" layoutY="14.0" mnemonicParsing="false" onAction="#reload" text="reload" />
+    <TableView fx:id="articleTable" layoutX="300.0" layoutY="42.0" prefHeight="200.0" prefWidth="200.0">
+      <columns>
+          <TableColumn fx:id="nameColumnArticle" prefWidth="100.800048828125" text="name" />
+          <TableColumn fx:id="descripcionColumnArticle" prefWidth="98.39996337890625" text="description" />
+      </columns>
+    </TableView>
+    <Label layoutX="25.0" layoutY="251.0" text="newspapers" />
+    <Label layoutX="300.0" layoutY="251.0" text="articles" />
+   <TextField fx:id="nombreNewsField" layoutX="25.0" layoutY="288.0" promptText="nombre" />
+   <Button layoutX="25.0" layoutY="331.0" mnemonicParsing="false" onAction="#updateNewspaper" text="update newspaper" />
+</AnchorPane>

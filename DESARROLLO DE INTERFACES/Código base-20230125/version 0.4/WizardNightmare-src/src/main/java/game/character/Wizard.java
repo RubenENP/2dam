@@ -1,0 +1,115 @@
+package main.java.game.character;
+
+import main.java.game.actions.Attack;
+import main.java.game.Domain;
+import main.java.game.object.Weapon;
+import main.java.game.objectContainer.exceptions.ContainerFullException;
+import main.java.game.objectContainer.exceptions.ContainerUnacceptedItemException;
+import main.java.game.spell.SpellUnknowableException;
+import main.java.game.object.Item;
+import main.java.game.objectContainer.Container;
+import main.java.game.objectContainer.CrystalCarrier;
+import main.java.game.objectContainer.JewelryBag;
+import main.java.game.objectContainer.Wearables;
+import main.java.game.spell.Spell;
+import main.java.game.character.exceptions.WizardTiredException;
+import main.java.game.util.Value;
+import main.java.game.util.ValueOverMaxException;
+import main.java.game.util.ValueUnderMinException;
+
+
+/**
+ * Wizard's attributes and related data.
+ *
+ */
+public class Wizard extends Character {
+
+    private final Value energy;
+    private final Wearables wearables;
+    private final CrystalCarrier crystalCarrier;
+    private final JewelryBag jewelryBag;
+
+    public Wizard(String n, int l, int lm, int e, int em, Wearables w, CrystalCarrier c, JewelryBag j) {
+        super(n, Domain.NONE, l, lm, 1);
+
+        energy = new Value(em, 0, e);
+
+        wearables = w;
+        crystalCarrier = c;
+        jewelryBag = j;
+    }
+
+    //Energy
+    public int getEnergy() {
+        return energy.getValue();
+    }
+    public boolean hasEnoughEnergy(int checkValue) {return energy.availableToMinimum() > checkValue; }
+
+    public void sleep(int maxRecovery) {
+        recoverEnergy(maxRecovery);
+    }
+    public void recoverEnergy(int e) {
+        try {
+            energy.increaseValue(e);
+        } catch (ValueOverMaxException ex) {
+            energy.setToMaximum();
+        }
+    }
+    public void drainEnergy(int e) throws WizardTiredException {
+        try {
+            energy.decreaseValue(e);
+        } catch (ValueUnderMinException ex) {
+            energy.setToMinimum();
+        }
+        if (energy.getValue() <= 1)
+            throw new WizardTiredException();
+    }
+    public int getEnergyMax() {
+        return energy.getMaximum();
+    }
+    public void upgradeEnergyMax(int m) {
+        energy.increaseMaximum(m);
+    }
+
+
+    //Containers
+    public Container getCrystalCarrier(){ return crystalCarrier;}
+    public Container getJewelryBag() { return jewelryBag; }
+    public Container getWearables() { return wearables; }
+
+
+    public void addItem(Item item) throws ContainerUnacceptedItemException, ContainerFullException {
+        if(item instanceof Attack)
+            attacks.add((Attack) item);
+        wearables.add(item);
+    }
+
+    public void addSpell(Spell spell) throws SpellUnknowableException {
+        if(spell instanceof Attack)
+            attacks.add((Attack) spell);
+        memory.add(spell);
+    }
+
+    public void checkWeapon(){
+        for (Attack a : attacks)
+            if (a instanceof Weapon)
+                attacks.remove(a);
+
+        Weapon w = wearables.getWeapon();
+        if(w != null)
+            attacks.add(w);
+    }
+
+    public int protect(int damage, Domain domain){
+        int newDamage = damage - wearables.getRingProtection(domain);;
+        if(newDamage < 1)
+            newDamage = 1;
+        return  newDamage;
+    }
+
+    public String toString() {
+        return name + "\tEnergy" + energy + "\tLife" + life + "\n\t"
+                + crystalCarrier + "\n\t" + wearables + "\n\t" + jewelryBag + "\n\t" + memory;
+    }
+
+}

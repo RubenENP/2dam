@@ -1,0 +1,20 @@
+
+k	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôùÃÉúÿÿÿÿ
+]
+java:S1659"BDeclare "month" and all following declarations on a separate line.(Ä¨™½ùÿÿÿÿ
+W
+java:S18549":Remove this useless assignment to local variable "mesInt".(ÆŠûÕ8…é–ÃÅ0
+U
+java:S18548":Remove this useless assignment to local variable "diaInt".(ƒ­Š”ıÿÿÿÿ
+F
+java:S11724"+Remove this unused method parameter "aÃ±o".(ôùÃÉúÿÿÿÿ
+F
+java:S14818"+Remove this unused "diaInt" local variable.(ƒ­Š”ıÿÿÿÿ
+H
+java:S14819"+Remove this unused "mesInt" local variable.(ÆŠûÕ8†é–ÃÅ0
+L
+java:S2696\"6Make the enclosing method "static" or remove this set.(ê„Ú½
+D
+java:S1144"-Remove this unused private "setFecha" method.(üÔä…
+I
+java:S1144£"-Remove this unused private "getFecha" method.(›ÑŸùÿÿÿÿ

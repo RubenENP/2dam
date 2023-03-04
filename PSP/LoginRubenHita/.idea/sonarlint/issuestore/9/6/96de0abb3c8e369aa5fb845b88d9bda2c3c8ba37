@@ -1,0 +1,10 @@
+
+c	java:S100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å¸±
+J
+java:S1128"4Remove this unused import 'domain.model.Activacion'.(¬»õİ
+@
+java:S1128"*Remove this unused import 'jakarta.Utils'.(ËÖ‘¦
+E
+java:S1128"*Remove this unused import 'java.sql.Time'.(Üå»‰şÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ

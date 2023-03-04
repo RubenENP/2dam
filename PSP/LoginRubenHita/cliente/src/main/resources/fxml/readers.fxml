@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.readers.ReadersController">
+    <TableView fx:id="readersTable" layoutX="250.0" layoutY="61.0" prefHeight="297.0" prefWidth="324.0">
+        <columns>
+            <TableColumn fx:id="idColumn" prefWidth="34.0" text="id" />
+            <TableColumn fx:id="nameColumn" prefWidth="116.0" text="name" />
+            <TableColumn fx:id="birthDateColumn" prefWidth="173.0" text="birth date" />
+        </columns>
+    </TableView>
+   <Button layoutX="503.0" layoutY="361.0" mnemonicParsing="false" onAction="#atras" text="Atras" />
+   <Button layoutX="12.0" layoutY="77.0" mnemonicParsing="false" onAction="#buscarPorId" text="Buscar por id" />
+   <TextField fx:id="nameField" layoutX="11.0" layoutY="131.0" prefHeight="25.0" prefWidth="174.0" promptText="name" />
+   <Button layoutX="11.0" layoutY="210.0" mnemonicParsing="false" onAction="#addReader" text="Añadir reader" />
+   <Button layoutX="250.0" layoutY="27.0" mnemonicParsing="false" onAction="#reload" text="reload" />
+   <TextField fx:id="idField" layoutX="11.0" layoutY="40.0" promptText="id" />
+   <DatePicker fx:id="birthDatePicker" layoutX="11.0" layoutY="175.0" />
+   <Button layoutX="11.0" layoutY="249.0" mnemonicParsing="false" onAction="#update" text="Update Reader" />
+</AnchorPane>

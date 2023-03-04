@@ -1,0 +1,87 @@
+@startuml
+class CrystalCarrier{
+    -int capacity;
+    -ArrayList<Crystal> crystals;
+    +CrystalCarrier(int c)
+    +int getCapacity()
+    +ArrayList<Crystal> getCrystals()
+    +boolean isFull()
+    +ArrayList<Crystal> removeAll()
+    +void addAll(ArrayList<Crystal> c)
+    +void add(Crystal c)
+    +int changeToSmallest(Crystal c)
+    +String toString()
+}
+
+class Wereables{
+    -ArrayList<StorableItem> items;
+    - int weapons, necklaces, rings;
+    - int weaponsMAX, necklacesMAX, ringsMAX;
+    + Wereables(int w, int n, int r)
+    + ArrayList<StorableItem> getItems()
+    + void addWereable(StorableItem si) throws WereablesFullException
+    + void removeWereable(StorableItem si)
+    + void exchangeWereable(StorableItem o, StorableItem n) throws WereableIncompatibleException
+    - void addWeapon(Weapon w) throws WereablesFullException
+    - void addNecklace(Necklace n) throws WereablesFullException
+    - void addRing(Ring r) throws WereablesFullException
+    - Weapon getWeapon() throws WizardNoWeaponException
+    - String toString()
+}
+
+class WereablesFullException
+class WizardNoWeaponException
+class WereableIncompatibleException
+class WizardLifePointsExcededException
+class WizardDeathException
+class WizardTiredException
+class CrystalCarrierFullException
+
+Wereables <- WereablesFullException
+Wereables <- WizardNoWeaponException
+Wereables <- WereableIncompatibleException
+
+
+'Wizard <- WizardNoWeaponException
+'Wizard <- WizardLifePointsExcededException
+'Wizard <- WizardDeathException
+'Wizard <- WizardTiredException
+'Wizard <- CrystalCarrierFullException
+'Wizard <- WereablesFullException
+'Wizard <- WereableIncompatibleException
+'Wizard <- WizardNoWeaponException
+
+class Wizard{
+    - String name;
+    - final AttributeControl life;
+    - final AttributeControl energy;
+    - CrystalCarrier crystalCarrier;
+    - final Wereables wereables;
+    - final ArrayList<Spell> spells;
+    + Wizard(String n, int l, int lm, int e, int em, CrystalCarrier c, Wereables w)
+    + String getName()
+    + void setName(String n)
+    + int getLife()
+    + void recoverLife(int v) throws WizardLifePointsExcededException
+    + void drainLife(int v) throws WizardDeathException
+    + int getLifeMax()
+    + void upgradeLifeMax(int m)
+    + int getEnergy(){ return energy.getCurrentValue(); }
+    + void sleep(int maxRecovery)
+    + void recoverEnergy(int e)
+    + void drainEnergy(int e) throws WizardTiredException
+    + int getEnergyMax()
+    + void upgradeEnergyMax(int m)
+    + CrystalCarrier getCrystalCarrier()
+    + void addCrystal(Crystal crystal) throws CrystalCarrierFullException
+    + CrystalCarrier changeCrystalCarrier(CrystalCarrier n)
+    + ArrayList<StorableItem> getWereables()
+    + void addItem(StorableItem si) throws WereablesFullException
+    + void removeItem(StorableItem si)
+    + void exchangeItem(StorableItem o, StorableItem n) throws WereableIncompatibleException
+    + Weapon getWeapon () throws WizardNoWeaponException
+    + String toString()
+}
+
+
+@enduml

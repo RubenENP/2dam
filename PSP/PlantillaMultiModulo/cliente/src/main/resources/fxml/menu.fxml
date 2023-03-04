@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.menu.MenuController">
+   <children>
+      <Label layoutX="95.0" layoutY="102.0" text="Bienvenido a mi API REST :)">
+         <font>
+            <Font name="Candara Light" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="43.0" layoutY="229.0" mnemonicParsing="false" onAction="#enterNewspapers" prefHeight="85.0" prefWidth="85.0" text="Newspapers" />
+      <Button layoutX="257.0" layoutY="229.0" mnemonicParsing="false" onAction="#enterArticles" prefHeight="85.0" prefWidth="85.0" text="Articles" />
+      <Button layoutX="448.0" layoutY="229.0" mnemonicParsing="false" onAction="#enterReaders" prefHeight="85.0" prefWidth="85.0" text="Readers" />
+   </children>
+</AnchorPane>

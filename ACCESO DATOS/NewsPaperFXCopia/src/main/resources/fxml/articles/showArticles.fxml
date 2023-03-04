@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.artciles.ShowArticlesController">
+    <TableView fx:id="articlesTable" layoutX="442.0" layoutY="58.0" prefHeight="331.0" prefWidth="594.0">
+        <columns>
+            <TableColumn fx:id="idArticleColumn" prefWidth="33.0" text="Id" />
+            <TableColumn fx:id="titleArticleColumn" prefWidth="95.0" text="Title" />
+            <TableColumn fx:id="descriptionArticleColumn" prefWidth="185.0" text="Description" />
+            <TableColumn fx:id="idNewspaperArticleColumn" prefWidth="84.0" text="IdNewspaper" />
+            <TableColumn fx:id="idTypeArticleColumn" prefWidth="71.0" text="IdType" />
+            <TableColumn fx:id="authorArticleColumn" prefWidth="125.0" text="Author" />
+        </columns>
+    </TableView>
+   <ComboBox fx:id="typeComboBox" layoutX="71.0" layoutY="129.0" prefWidth="150.0" />
+   <Label layoutX="71.0" layoutY="106.0" text="Tipo" />
+   <Button layoutX="71.0" layoutY="167.0" mnemonicParsing="false" onAction="#showArticles" text="Show" />
+
+</AnchorPane>

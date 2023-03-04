@@ -1,0 +1,21 @@
+
+@
+java:S1128"*Remove this unused import 'claves.Claves'.(ê®´ª
+f
+java:S1128"PRemove this unused import 'org.bouncycastle.operator.OperatorCreationException'.(ƒÁÄÆ
+K
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ
+R
+java:S1128"<Remove this unused import 'java.security.KeyStoreException'.(Ë¾¬œ
+^
+java:S1128"CRemove this unused import 'java.security.NoSuchAlgorithmException'.(ŒòÍ¾þÿÿÿÿ
+\
+java:S1128"FRemove this unused import 'java.security.UnrecoverableEntryException'.(»§Ç·
+_
+java:S1128"DRemove this unused import 'java.security.UnrecoverableKeyException'.(åÁÛÖúÿÿÿÿ
+_
+java:S1128"DRemove this unused import 'java.security.cert.CertificateException'.(èÙ¿ùÿÿÿÿ
+G
+java:S1128"1Remove this unused import 'java.util.Properties'.(¬µŽ²
+>
+java:S1068 "(Remove this unused "hash" private field.(…Èþ®

@@ -1,0 +1,7 @@
+
+n
+java:S1104"SMake menuBar a static final constant or non-public and provide accessors if needed.(Ö¡êºûÿÿÿÿ
+v
+java:S1450"[Remove the "primaryStage" field and declare it as a local variable in the relevant methods.(ˆ©äÔüÿÿÿÿ
+K
+java:S1068"0Remove this unused "primaryStage" private field.(ˆ©äÔüÿÿÿÿ

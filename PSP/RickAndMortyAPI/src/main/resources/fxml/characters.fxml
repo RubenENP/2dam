@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="930.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.characters.CharactersController">
+    <Label layoutX="269.0" layoutY="51.0" text="Que personaje quieres buscar?">
+        <font>
+          <Font size="29.0" />
+        </font>
+    </Label>
+    <TextField fx:id="nameTxt" layoutX="259.0" layoutY="126.0" prefHeight="31.0" prefWidth="118.0" />
+    <Button layoutX="259.0" layoutY="166.0" mnemonicParsing="false" onAction="#buscar" text="Buscar por nombre" />
+    <Button layoutX="830.0" layoutY="434.0" mnemonicParsing="false" onAction="#atras" text="Atras" />
+    <TableView fx:id="charactersTable" layoutX="23.0" layoutY="270.0" onMouseClicked="#seleccionCharacter" prefHeight="200.0" prefWidth="784.0">
+      <columns>
+          <TableColumn fx:id="columnName" prefWidth="150.0" text="name" />
+          <TableColumn fx:id="columnStatus" prefWidth="172.0" text="status" />
+          <TableColumn fx:id="columnSpecies" prefWidth="163.0" text="species" />
+          <TableColumn fx:id="columnType" prefWidth="159.0" text="type" />
+          <TableColumn fx:id="columnGender" prefWidth="139.0" text="gender" />
+      </columns>
+    </TableView>
+    <ImageView fx:id="characterImg" fitHeight="150.0" fitWidth="200.0" layoutX="688.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true" />
+    <ListView fx:id="episodesList" layoutX="23.0" layoutY="53.0" prefHeight="200.0" prefWidth="200.0" />
+    <Label layoutX="23.0" layoutY="24.0" text="Episodios" />
+    <Button layoutX="417.0" layoutY="166.0" mnemonicParsing="false" onAction="#buscarPorEspecie" text="Buscar por especie" />
+    <ComboBox fx:id="comboBox" layoutX="417.0" layoutY="126.0" prefWidth="150.0" />
+</AnchorPane>

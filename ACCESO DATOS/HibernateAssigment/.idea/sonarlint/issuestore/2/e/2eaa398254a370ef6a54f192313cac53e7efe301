@@ -1,0 +1,12 @@
+
+R
+java:S2589$"7Remove this expression which always evaluates to "true"(æ¶Ûùùÿÿÿÿ
+l
+java:S1450"QRemove the "em" field and declare it as a local variable in the relevant methods.(‘æ¿Úúÿÿÿÿ
+]
+java:S1128"BRemove this unused import 'jakarta.persistence.EntityTransaction'.(¡«Ä×üÿÿÿÿ
+J
+java:S1128
+"/Remove this unused import 'model.NewspaperHib'.(¸ìÅõûÿÿÿÿ
+A
+java:S1128",Remove this unused import 'model.ReaderHib'.(’ûù!

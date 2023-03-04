@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav.xml"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.mundialrubenhita.ui.main.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/main_to_grupos"
+            app:destination="@id/simuladorFragment" />
+        <action
+            android:id="@+id/main_to_partidos"
+            app:destination="@id/partidosFragment" />
+        <action
+            android:id="@+id/main_to_registros"
+            app:destination="@id/registrosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/simuladorFragment"
+        android:name="com.example.mundialrubenhita.ui.simulador.SimuladorFragment"
+        android:label="fragment_simulador"
+        tools:layout="@layout/fragment_simulador">
+        <action
+            android:id="@+id/grupos_to_main"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/grupos_to_partidos"
+            app:destination="@id/partidosFragment" />
+        <action
+            android:id="@+id/grupos_to_registros"
+            app:destination="@id/registrosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/partidosFragment"
+        android:name="com.example.mundialrubenhita.ui.porra.PartidosFragment"
+        android:label="fragment_partidos"
+        tools:layout="@layout/fragment_porra" >
+        <action
+            android:id="@+id/partidos_to_main"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/partidos_to_grupos"
+            app:destination="@id/simuladorFragment" />
+        <action
+            android:id="@+id/partidos_to_registros"
+            app:destination="@id/registrosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrosFragment"
+        android:name="com.example.mundialrubenhita.ui.registros.RegistrosFragment"
+        android:label="fragment_registros"
+        tools:layout="@layout/fragment_registros" >
+        <action
+            android:id="@+id/registros_to_main"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/registros_to_grupos"
+            app:destination="@id/simuladorFragment" />
+        <action
+            android:id="@+id/registros_to_partidos"
+            app:destination="@id/partidosFragment" />
+    </fragment>
+</navigation>

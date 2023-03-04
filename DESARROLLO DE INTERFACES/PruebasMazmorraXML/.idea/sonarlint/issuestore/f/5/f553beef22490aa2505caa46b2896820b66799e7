@@ -1,0 +1,17 @@
+
+a
+java:S1192F"FDefine a constant instead of duplicating this literal "    <" 3 times.(Ñ‹Ÿ»øÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Â”§†ûÿÿÿÿ
+^
+java:S1854"CRemove this useless assignment to local variable "characterFields".(çØúõÿÿÿÿÿ
+O
+java:S1481"4Remove this unused "characterFields" local variable.(çØúõÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(×ÕÿŸûÿÿÿÿ
+B
+java:S30119",This accessibility update should be removed.(˜ÂÓ˜
+V	java:S125:"<This block of commented-out lines of code should be removed.(ä±ƒøùÿÿÿÿ
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(¦“†Æıÿÿÿÿ
+J
+java:S1128"(Remove this unused import 'game.Domain'.(ëĞƒˆıÿÿÿÿ8ï¨éŞ0
+W
+java:S1128"5Remove this unused import 'game.character.Character'.(±“Ø¸ıÿÿÿÿ8ï¨éŞ0

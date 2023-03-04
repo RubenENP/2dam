@@ -1,0 +1,7 @@
+query GetAllArticles{
+    getAllArticles{
+        id
+        nombre
+        descripcion
+    }
+}

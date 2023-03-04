@@ -1,0 +1,29 @@
+@startuml
+class Crystal{
+    -int singa;
+    +static Crystal createCrystal(int maximum)
+    +Crystal(int m)
+    +int getSinga()
+}
+
+class Necklace{
+    +void consume(int val)
+}
+
+class Ring{}
+
+class StorableItem{
+    -Magic_Type type;
+    -int value;
+    +Magic_Type getType()
+    +int getValue()
+    +String toString()
+}
+
+class Weapon{}
+
+Weapon <-- StorableItem: extends
+Ring <-- StorableItem: extends
+Necklace <-- StorableItem: extends
+
+@enduml

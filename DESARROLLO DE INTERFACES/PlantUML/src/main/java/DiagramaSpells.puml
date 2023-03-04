@@ -1,0 +1,20 @@
+@startuml
+class BringHome{}
+
+interface Spell{
+    +void cast()
+}
+
+BringHome <- Spell: implements
+
+enum Magic_Type{
+NONE,
+ELECTRICITY,
+ENERGY,
+FIRE,
+LIFE,
+NO_MAGIC,
+WIND
+}
+
+@enduml

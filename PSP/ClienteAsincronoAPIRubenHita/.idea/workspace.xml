@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="499568fc-78b6-4038-b221-7ea669b245e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/ExampleExamRubenHita/.idea/sonarlint/issuestore/1/2/12561c88a90692c2456060ae71fe60776d9dca5e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/ExampleExamRubenHita/.idea/sonarlint/issuestore/7/1/714f2f415098ee48634acafe8a96d3498fe3878c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/ExampleExamRubenHita/.idea/sonarlint/issuestore/b/8/b850c30d1abf17533c54988f0c270a3f1386c0ef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/NewsPaperFXCopia/.idea/sonarlint/issuestore/2/b/2b1e75dcf53c45af2a77fd1fd6f404571b3c35c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/NewsPaperFXCopia/.idea/sonarlint/issuestore/7/c/7caa74797791083f45f8a009385c7a5027cf45ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/NewsPaperFXCopia/.idea/sonarlint/issuestore/8/0/807e2678b8d63d301fbc73bee81ebb567a2d7c6a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/NewsPaperFXCopia/.idea/sonarlint/issuestore/a/3/a3d6d843ac9360a37bfa8d4f91a1ac7d5e45f078" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/NewsPaperFXCopia/.idea/sonarlint/issuestore/a/9/a9df3842a11c137d6865dcfb9e82c47fdcc92bf8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/NewsPaperFXCopia/.idea/sonarlint/issuestore/a/d/ade5c5e45d0808f1af48004875132e9f6bf59788" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/NewsPaperFXCopia/.idea/sonarlint/issuestore/a/e/ae9df530cffc002c739f0127cfe4ff1bc8a844dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/NewsPaperFXCopia/.idea/sonarlint/issuestore/e/9/e96ff015e7857a495e7ed5166408185ba4704716" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/NewsPaperFXCopia/.idea/sonarlint/issuestore/e/f/ef5e4704f8b3d9b9b762e93adfc7a42c58dfb9f6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/NewsPaperFXCopia/.idea/sonarlint/issuestore/f/8/f8cf743cfc27e77d7e17630e54adbdc4785e1cc5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/SecondAssigmentRubenHita/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ACCESO DATOS/SecondAssigmentRubenHita/.idea/sonarlint/issuestore/c/f/cff6d145921ddeabb9a0cb2206d7e81c1ab1e450" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/NavigationRubenHita/app/src/main/java/com/example/navigationrubenhita/RoomApp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/NavigationRubenHita/app/src/main/java/com/example/navigationrubenhita/domain/modelo/Equipo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/NavigationRubenHita/app/src/main/java/com/example/navigationrubenhita/ui/goleadores/GoleadoresFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/NavigationRubenHita/app/src/main/java/com/example/navigationrubenhita/ui/partidos/PartidosFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/NavigationRubenHita/app/src/main/java/com/example/navigationrubenhita/ui/partidos/PartidosViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/NavigationRubenHita/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/NavigationRubenHita/app/src/main/res/drawable/ic_baseline_home_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/NavigationRubenHita/app/src/main/res/drawable/ic_baseline_sports_soccer_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/NavigationRubenHita/app/src/main/res/layout/fragment_goleadores.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/NavigationRubenHita/app/src/main/res/layout/fragment_partidos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/NavigationRubenHita/app/src/main/res/menu/bottom_navigation_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/NavigationRubenHita/app/src/main/res/navigation/nav.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/cliente/src/main/java/dao/LoginDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/cliente/src/main/java/dao/impl/LoginDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/cliente/src/main/java/dao/retrofit/llamadas/LoginAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/cliente/src/main/java/servicios/LoginServicios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/cliente/src/main/java/servicios/impl/LoginServiciosImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/cliente/src/main/java/ui/pantallas/login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/cliente/src/main/java/ui/pantallas/login/LoginState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/cliente/src/main/java/ui/pantallas/login/LoginViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/cliente/src/main/resources/fxml/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/domain/src/main/java/domain/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/server/src/main/java/jakarta/filter/FilterLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/server/src/main/java/jakarta/filter/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginRubenHita/server/src/main/java/jakarta/servlets/ServletLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ACCESO DATOS/ExampleExamRubenHita/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ACCESO DATOS/ExampleExamRubenHita/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ACCESO DATOS/NewsPaperFXCopia/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ACCESO DATOS/NewsPaperFXCopia/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ACCESO DATOS/SecondAssigmentRubenHita/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ACCESO DATOS/SecondAssigmentRubenHita/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c89a5491fbfda3fb050196d6a239f20200296e7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/4070be6784772f662f3d578d59b9a40234f87106" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b45463ed2f562cde378f752322acd0c5da97645e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b469a2802f722eb3a16858b22ddf33da34267f19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c93aac1c9fabbd54267bf68608a3c572188d39e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea948e1509e82cfceec5d971b944b131f5aa2955" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0fd8bfbd0b20c90b4c3a079f2cc1e3acf0bed99" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff6fdd0832c19f3377a1ab77d7c318981867b290" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Record" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Eyy3qwDeJCYl2aidlwxTr5dLmX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/morar/Desktop/2DAMCosas/PSP/ClienteAsincronoAPIRubenHita",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="modelo.Constantes" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DIJavafx">
+    <configuration name="DIJavafx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.main.DIJavafx" />
+      <module name="ClienteAsincronoAPIRubenHita" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Main" />
+      <module name="RickAndMortyAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DIJavafx" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="499568fc-78b6-4038-b221-7ea669b245e8" name="Changes" comment="" />
+      <created>1663581925657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663581925657</updated>
+      <workItem from="1663581927068" duration="2377000" />
+      <workItem from="1663600877087" duration="9168000" />
+      <workItem from="1663661994013" duration="963000" />
+      <workItem from="1663667034045" duration="826000" />
+      <workItem from="1663741860364" duration="6411000" />
+      <workItem from="1663753226175" duration="464000" />
+      <workItem from="1663754936353" duration="1874000" />
+      <workItem from="1663757088984" duration="5592000" />
+      <workItem from="1663768148539" duration="6265000" />
+      <workItem from="1663774597646" duration="5654000" />
+      <workItem from="1663829767206" duration="7808000" />
+      <workItem from="1663843270348" duration="1100000" />
+      <workItem from="1663844383452" duration="1258000" />
+      <workItem from="1663860204885" duration="1517000" />
+      <workItem from="1663863043956" duration="3046000" />
+      <workItem from="1663945739893" duration="1225000" />
+      <workItem from="1663947189345" duration="1548000" />
+      <workItem from="1663950889809" duration="1239000" />
+      <workItem from="1664009422117" duration="722000" />
+      <workItem from="1664010753296" duration="8622000" />
+      <workItem from="1664110113163" duration="375000" />
+      <workItem from="1664182293051" duration="411000" />
+      <workItem from="1664182808297" duration="4615000" />
+      <workItem from="1664300780957" duration="8289000" />
+      <workItem from="1664352353861" duration="2578000" />
+      <workItem from="1664366248780" duration="25000" />
+      <workItem from="1664439962072" duration="2627000" />
+      <workItem from="1664464199435" duration="1609000" />
+      <workItem from="1664466240933" duration="10571000" />
+      <workItem from="1664521130739" duration="13000" />
+      <workItem from="1664782394882" duration="300000" />
+      <workItem from="1664795912557" duration="12000" />
+      <workItem from="1665390646378" duration="5215000" />
+      <workItem from="1665397880763" duration="962000" />
+      <workItem from="1665581834183" duration="128000" />
+      <workItem from="1665582102790" duration="15000" />
+      <workItem from="1665602049278" duration="1446000" />
+      <workItem from="1665643424114" duration="18219000" />
+      <workItem from="1665684127275" duration="83000" />
+      <workItem from="1665825941795" duration="68000" />
+      <workItem from="1665833214610" duration="116000" />
+      <workItem from="1666174123667" duration="1310000" />
+      <workItem from="1666203391822" duration="37000" />
+      <workItem from="1666821841631" duration="386000" />
+      <workItem from="1666852955381" duration="12000" />
+      <workItem from="1667551575559" duration="22000" />
+      <workItem from="1667648120443" duration="38000" />
+      <workItem from="1668538190779" duration="2146000" />
+      <workItem from="1668593227355" duration="7000" />
+      <workItem from="1668946870917" duration="24000" />
+      <workItem from="1668949877948" duration="8939000" />
+      <workItem from="1669022344366" duration="1797000" />
+      <workItem from="1670087445945" duration="615000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.squareup.moshi.Moshi" memberName="adapterCache" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

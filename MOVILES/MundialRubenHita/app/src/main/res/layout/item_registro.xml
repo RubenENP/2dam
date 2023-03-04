@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="10dp"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/banderaLocalImg"
+                android:layout_width="77dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/bandera"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/equipoLocalTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/portugal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vs"
+                android:layout_marginHorizontal="10dp"/>
+
+            <ImageView
+                android:id="@+id/banderaVisitanteImg"
+                android:layout_width="77dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/bandera"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/equipoVisitanteTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/portugal"/>
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/balanceTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/balance"
+                android:layout_column="0"
+                android:layout_row="0"/>
+
+            <TextView
+                android:id="@+id/dineroTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/dinero"
+                android:layout_column="0"
+                android:layout_row="1"/>
+
+            <TextView
+                android:id="@+id/resultadoTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/resultado"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:layout_marginStart="50dp"/>
+        </GridLayout>
+
+        <ImageView
+            android:id="@+id/graficaImg"
+            android:layout_width="53dp"
+            android:layout_height="48dp"
+            android:contentDescription="@string/grafica"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

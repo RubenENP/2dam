@@ -1,0 +1,10 @@
+
+[	java:S107 "AConstructor has 8 parameters, which is greater than 7 authorized.(ò ì¤ùÿÿÿÿ
+c
+java:S6201R"FReplace this instanceof check and cast with 'instanceof Attack attack'(«ÑË„8©ø¡ÆÞ0
+W
+java:S1161W":Add the "@Override" annotation above this method signature(ç¼êè8ªø¡ÆÞ0
+h
+java:S6201X"FReplace this instanceof check and cast with 'instanceof Attack attack'(¦‡š¼ùÿÿÿÿ8«ø¡ÆÞ0
+2
+java:S1116h"Remove this empty statement.(¹õ´¿

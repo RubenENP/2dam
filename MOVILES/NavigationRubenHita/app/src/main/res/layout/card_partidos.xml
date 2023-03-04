@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingConstraints"
+    android:clickable="true"
+    android:focusable="true"
+    android:checkable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            tools:hint="19/10/2022" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="37dp"
+                android:layout_height="27dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginEnd="20dp"
+                android:contentDescription="@string/bandera"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/equipoA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_marginEnd="20dp"
+                android:textSize="20sp"
+                tools:hint="Portugal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:textSize="20sp"
+                android:text="@string/vs" />
+
+            <ImageView
+                android:layout_width="37dp"
+                android:layout_height="27dp"
+                android:layout_marginEnd="20dp"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:contentDescription="@string/bandera"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/equipoB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="4"
+                android:textSize="20sp"
+                tools:hint="Francia" />
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_baseline_favorite_border_24"
+                android:contentDescription="@string/favourite"
+                style="?attr/materialIconButtonStyle"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

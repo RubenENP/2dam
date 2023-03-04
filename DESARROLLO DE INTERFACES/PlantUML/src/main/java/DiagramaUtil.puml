@@ -1,0 +1,20 @@
+@startuml
+class AtributteControl{
+    -int currentValue;
+    -int maxValue;
+    + AttributeControl(int c, int m)
+    + int getCurrentValue()
+    + int getMaxValue()
+    + void setToMax()
+    + void increaseCurrentValue(int c) throws AttributeException
+    + void decreaseCurrentValue(int c) throws AttributeException
+    + void upgradeMaxValue(int m)
+    + void reset()
+    + int getDifference()
+    + String toString()
+}
+
+class AttributeException
+
+AtributteControl <- AttributeException
+@enduml

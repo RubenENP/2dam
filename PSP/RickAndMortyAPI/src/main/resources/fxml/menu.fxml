@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="930.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.menu.MenuController">
+   <Button layoutX="171.0" layoutY="290.0" mnemonicParsing="false" onAction="#entrarPersonajes" prefHeight="90.0" prefWidth="90.0" text="Personajes" />
+   <ImageView fx:id="titleImg" fitHeight="211.0" fitWidth="381.0" layoutX="282.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" />
+   <Button layoutX="428.0" layoutY="280.0" mnemonicParsing="false" onAction="#entrarSitios" prefHeight="90.0" prefWidth="90.0" text="Sitios" />
+   <Button layoutX="682.0" layoutY="280.0" mnemonicParsing="false" onAction="#entrarEpisodios" prefHeight="90.0" prefWidth="90.0" text="Episodios" />
+</AnchorPane>

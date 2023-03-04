@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<readers>
+    <reader maxOccurs="unbounded">
+        <id>1</id>
+        <name>John</name>
+        <birthDate>2000-01-01</birthDate>
+        <subscriptions>
+            <subscription maxOccurs="unbounded">
+                <id>1</id>
+                <idReader>1</idReader>
+                <idNewspaper>1</idNewspaper>
+                <signingDate>2003-01-01</signingDate>
+                <cancellationDate>null</cancellationDate>
+            </subscription>
+        </subscriptions>
+        <readArticles>
+            <readArticle maxOccurs="unbounded">
+                <id>1</id>
+                <idReader>1</idReader>
+                <idArticle>1</idArticle>
+                <rating>2</rating>
+            </readArticle>
+        </readArticles>
+    </reader>
+
+    <reader maxOccurs="unbounded">
+        <id>2</id>
+        <name>Messi</name>
+        <birthDate>2000-01-01</birthDate>
+        <subscriptions>
+            <subscription maxOccurs="unbounded">
+                <id>2</id>
+                <idReader>2</idReader>
+                <idNewspaper>1</idNewspaper>
+                <signingDate>2003-02-02</signingDate>
+                <cancellationDate>null</cancellationDate>
+            </subscription>
+        </subscriptions>
+        <readArticles>
+            <readArticle maxOccurs="unbounded">
+                <id>2</id>
+                <idReader>2</idReader>
+                <idArticle>2</idArticle>
+                <rating>2</rating>
+            </readArticle>
+        </readArticles>
+    </reader>
+</readers>
+
+

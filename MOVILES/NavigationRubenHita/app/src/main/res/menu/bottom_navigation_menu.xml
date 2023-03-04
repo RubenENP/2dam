@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_partidos"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_sports_soccer_24"
+        android:title="@string/partidos"/>
+    <item
+        android:id="@+id/page_inicio"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/inicio"
+        />
+    <item
+        android:id="@+id/page_goleadores"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:title="@string/grupos"/>
+</menu>

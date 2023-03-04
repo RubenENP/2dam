@@ -1,0 +1,14 @@
+
+p
+java:S1450"ZRemove the "bottomPanel" field and declare it as a local variable in the relevant methods.(Ò‹áŒ
+q
+java:S1450"VRemove the "jButton" field and declare it as a local variable in the relevant methods.(ƒ¢Ø„ûÿÿÿÿ
+k
+java:S1450"URemove the "jFecha" field and declare it as a local variable in the relevant methods.(Ã®
+k
+java:S1450"URemove the "jFrame" field and declare it as a local variable in the relevant methods.(—¨ış
+m
+java:S1450
+"WRemove the "topPanel" field and declare it as a local variable in the relevant methods.(¬¢
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(¦Èö¤8™ŞøŠÅ0

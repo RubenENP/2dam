@@ -1,0 +1,26 @@
+
+=
+java:S2189/""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(†·§ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¦±¦ıúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(†·§ÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¯¡šñ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Â·öÛıÿÿÿÿ
+V	java:S125%"<This block of commented-out lines of code should be removed.(à‡ÿÿÿÿÿ
+g
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ú¡­,
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(µ­ìŞ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(Åè±ÿÿÿÿÿ
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(µ‰ü¿
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(µ‰ü¿
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(µ‰ü¿
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(ğêÚ¤ûÿÿÿÿ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(íÎˆ£
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(êãï
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106L"9Replace this use of System.out or System.err by a logger.(“Åú‹
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(ÕŸÎØ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(íÎˆ£

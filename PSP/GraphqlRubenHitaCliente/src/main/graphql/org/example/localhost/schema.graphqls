@@ -1,0 +1,26 @@
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Newspaper{
+    id: ID
+    nameNewspaper: String!
+    releaseDate: String!
+}
+type Article{
+    id: ID
+    nombre: String!
+    descripcion: String!
+}
+
+type Query{
+    getAllNewspapers: [Newspaper]
+    getAllArticles: [Article]
+}
+
+type Mutation{
+    createNewspaper(name: String!, rel_date: String!): Newspaper
+    updateNewspaper(id: ID!, nameNewspaper: String!): Newspaper
+    deleteNewspaper(id: ID!): Newspaper
+}

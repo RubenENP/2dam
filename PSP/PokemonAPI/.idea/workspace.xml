@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="58fe11b3-e98b-4b3e-88e7-a74afb1174da" name="Changes" comment="" />
+=======
+    <list default="true" id="58fe11b3-e98b-4b3e-88e7-a74afb1174da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/src/main/java/jsons/characters.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/src/main/java/modelo/characters/Characters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/src/main/java/modelo/characters/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/src/main/java/modelo/characters/Results.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/src/main/java/retrofit/CharactersAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RickAndMortyAPI/src/main/java/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DESARROLLO DE INTERFACES/Interfaces Ejercicio1.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DESARROLLO DE INTERFACES/Interfaces Ejercicio1.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../temp/app/src/main/java/com/example/botonquehacecosas/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../temp/app/src/main/java/com/example/botonquehacecosas/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../temp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../temp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
+>>>>>>> e6a8923e81c408df5099f46c1dcb60a4072279ac
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Evqx2SadTGV6rjLzZZK0gWM0Sa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/2dam/Desktop/2DAMCosas/ACCESO DATOS/docker/Data Base",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58fe11b3-e98b-4b3e-88e7-a74afb1174da" name="Changes" comment="" />
+      <created>1663486652156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663486652156</updated>
+<<<<<<< HEAD
+      <workItem from="1663486654338" duration="2403000" />
+=======
+      <workItem from="1663486654338" duration="2108000" />
+      <workItem from="1663572630138" duration="110000" />
+      <workItem from="1663580788015" duration="3151000" />
+>>>>>>> e6a8923e81c408df5099f46c1dcb60a4072279ac
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

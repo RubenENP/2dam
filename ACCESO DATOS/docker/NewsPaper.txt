@@ -1,0 +1,97 @@
+docker run -p 3306:3306 --name Ruben -e MYSQL_ROOT_PASSWORD=thewitcher -e MYSQL_DATABASE=Newspaper -d mysql
+
+
+create table ArticleType
+(
+    id   int          not null
+        primary key,
+    type varchar(250) null
+);
+
+INSERT INTO Newspaper.ArticleType (id, type) VALUES (1, 'Deportes');
+INSERT INTO Newspaper.ArticleType (id, type) VALUES (2, 'Cotilleo');
+INSERT INTO Newspaper.ArticleType (id, type) VALUES (3, 'Politica');
+
+
+create table NewsPaper
+(
+    id       int          not null
+        primary key,
+    name     varchar(250) null,
+    price    double       null,
+    director varchar(250) null
+);
+
+INSERT INTO Newspaper.NewsPaper (id, name, price, director) VALUES (1, 'Marca', 1.2, 'Manolo');
+INSERT INTO Newspaper.NewsPaper (id, name, price, director) VALUES (2, 'ABC', 2.5, 'Juanito');
+INSERT INTO Newspaper.NewsPaper (id, name, price, director) VALUES (3, 'Hola', 1, 'Mari Carmen');
+
+
+create table Article
+(
+    id          int           not null
+        primary key,
+    title       varchar(250)  null,
+    description varchar(2000) null,
+    author      varchar(250)  null,
+    idNewsPaper int           not null,
+    idType      int           not null,
+    constraint IdType
+        foreign key (idType) references ArticleType (id),
+    constraint idNewsPaper
+        foreign key (idNewsPaper) references NewsPaper (id)
+);
+
+INSERT INTO Newspaper.Article (id, title, description, author, idNewsPaper, idType) VALUES (1, 'El bicho al betis', 'El bicho ha tomao la decision de ser el nuevo jugador del betis', 'Manolo', 1, 1);
+INSERT INTO Newspaper.Article (id, title, description, author, idNewsPaper, idType) VALUES (2, 'Ya salio el covid 20', 'Porfin hay una nueva version del covid que tanto  se esperaba, el covid 20...', 'Perreo Sanchez', 2, 3);
+INSERT INTO Newspaper.Article (id, title, description, author, idNewsPaper, idType) VALUES (3, 'Vamos a morir todos', 'Se aproxima un meteorito y vamos a morir todos', 'Anonimo', 3, 3);
+
+
+create table Readers
+(
+    id        int          not null
+        primary key,
+    name      varchar(250) null,
+    birthDate date         null
+);
+
+INSERT INTO Newspaper.Readers (id, name, birthDate) VALUES (1, 'Joaquin el del betis', '1981-08-11');
+INSERT INTO Newspaper.Readers (id, name, birthDate) VALUES (2, 'Paquito', '2022-09-13');
+INSERT INTO Newspaper.Readers (id, name, birthDate) VALUES (3, 'Dani', '2023-09-13');
+
+
+create table ReadenArticles
+(
+    id        int not null
+        primary key,
+    idReader  int not null,
+    idArticle int not null,
+    rating    int null,
+    constraint idArticle
+        foreign key (idArticle) references Article (id),
+    constraint idReader
+        foreign key (idReader) references Readers (id)
+);
+
+INSERT INTO Newspaper.ReadenArticles (id, idReader, idArticle, rating) VALUES (1, 1, 1, 9);
+INSERT INTO Newspaper.ReadenArticles (id, idReader, idArticle, rating) VALUES (2, 2, 2, 10);
+INSERT INTO Newspaper.ReadenArticles (id, idReader, idArticle, rating) VALUES (3, 3, 3, 0);
+
+create table Subscriptions
+(
+    id          int  not null
+        primary key,
+    idReader    int  not null,
+    idNewspaper int  not null,
+    initDate    date not null,
+    topDate     date null,
+    constraint NewspapersId
+        foreign key (idNewspaper) references NewsPaper (id),
+    constraint ReaderId
+        foreign key (idReader) references Readers (id)
+);
+
+INSERT INTO Newspaper.Subscriptions (id, idReader, idNewspaper, initDate, topDate) VALUES (1, 1, 1, '2022-07-05', null);
+INSERT INTO Newspaper.Subscriptions (id, idReader, idNewspaper, initDate, topDate) VALUES (2, 2, 2, '2021-09-03', null);
+INSERT INTO Newspaper.Subscriptions (id, idReader, idNewspaper, initDate, topDate) VALUES (3, 3, 3, '2017-09-02', null);
+

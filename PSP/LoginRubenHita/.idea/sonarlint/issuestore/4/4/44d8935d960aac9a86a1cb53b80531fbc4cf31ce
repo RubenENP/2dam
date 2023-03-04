@@ -1,0 +1,30 @@
+
+a
+java:S2259È"EA "NullPointerException" could be thrown; "llamada" is nullable here.(È¼ËÊúÿÿÿÿ
+f
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ø»­İ
+k
+java:S2095®"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(úÿÿõşÿÿÿÿ
+f
+java:S2095’"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ùˆõ
+L
+java:S1117/"6Rename "rs" which hides the field declared at line 32.(ôè”
+G
+java:S1481^"1Remove this unused "rowsAffected" local variable.(ÜÁç¿
+0
+java:S2275w"Not enough arguments.(ƒ‹¿üÿÿÿÿ
+l
+java:S3457w"Q%n should be used in place of \n to produce the platform-specific line separator.(ƒ‹¿üÿÿÿÿ
+S	java:S106w"9Replace this use of System.out or System.err by a logger.(ƒ‹¿üÿÿÿÿ
+N
+java:S1128"1Remove this unused import 'domain.model.Usuario'.(™¶äí8›ÒÁ·à0
+o
+java:S1128"RRemove this unused import 'org.springframework.jdbc.core.simple.SimpleJdbcInsert'.(ü¾®¤8›ÒÁ·à0
+R
+java:S1128"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ8œÒÁ·à0
+`
+java:S1128">Remove this unused import 'java.time.temporal.TemporalAmount'.(©¡”»üÿÿÿÿ8œÒÁ·à0
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8œÒÁ·à0
+L
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8œÒÁ·à0

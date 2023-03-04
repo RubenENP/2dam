@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98207ce0-1311-4b9d-8784-871a247d5fb6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/common/Constantes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/Config.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/NetworkResult.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/Repository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/datamappers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/di/DatabaseModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/di/NetworkModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/local/ActorsDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/local/AppDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/local/MovieDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/local/SerieDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/modelo/actors/ActorDesc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/modelo/actors/ActorEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/modelo/actors/Actors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/modelo/movies/MovieDesc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/modelo/movies/MovieEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/modelo/movies/MovieQuery.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/modelo/movies/Movies.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/modelo/movies/MoviesQuery.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/modelo/series/SerieDesc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/modelo/series/SerieEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/modelo/series/Series.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/network/AuthInterceptor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/network/services/MovieService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/remote/BaseApiResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/data/remote/MovieRemoteDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/domain/model/Actor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/domain/model/Movie.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/domain/model/Serie.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/domain/usecases/GetActorsUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/domain/usecases/GetMoviesUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/domain/usecases/GetSeriesUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/domain/usecases/InsertMovieUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/RoomApp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/actores/ActoresActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/actores/ActoresViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/actores/ActorsState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/biblioteca/BibliotecaActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/biblioteca/BibliotecaState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/biblioteca/BibliotecaViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/common/Screen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/main/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/main/MainScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/main/MainState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/main/MainViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/main/SearchWidgetState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/main/recyclerViews/MoviesRecyclerView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/main/recyclerViews/SeriesRecyclerView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/searchedMovies/SearchMovieListViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/searchedMovies/SearchedMovieListActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/searchedMovies/SearchedMovieListState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/searchedMovies/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/searchedMovies/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/searchedMovies/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/utils/Utils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/res/drawable/baseline_time.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/.idea/sonarlint/issuestore/0/8/086d5424281bd615c6e9978edca2d806172a6ef7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/.idea/sonarlint/issuestore/3/d/3d42af3b7f4d33c0a472b79b954920cc8f60aa4e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/.idea/sonarlint/issuestore/4/3/43c6930649e9210891445d4951bab9895aeaf110" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/.idea/sonarlint/issuestore/8/2/8295920e156550987a035e32e39c15735d23c7cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/.idea/sonarlint/issuestore/b/6/b60882b3c8abb4e1dcf4e11f1bc161dd3f206e1b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/dao/DaoSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/dao/impl/DaoSecurityImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/retrofit/llamadas/SecurityAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/services/ServicesSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/services/impl/ServicesSecurityImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/server/src/main/java/dao/SecurityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/server/src/main/java/dao/impl/SecurityDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/server/src/main/java/jakarta/rest/SecurityRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/server/src/main/java/services/ServicesSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/server/src/main/java/services/impl/ServicesSecurityImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/data/ConfigurationGraphql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/data/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/data/mapper/NewspaperMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/data/modelo/ArticleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/data/modelo/NewspaperEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/domain/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/domain/models/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/domain/models/Newspaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/domain/usecases/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/domain/usecases/NewspaperService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/spring/errors/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/spring/errors/ControlErrores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/spring/repository/ArticleEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/spring/repository/NewspaperEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/spring/rest/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/java/com/example/graphqlrubenhita/spring/rest/NewspaperController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHita/src/main/resources/graphql/newspaper.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/src/main/graphql/org/example/localhost/GetAllArticles.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/src/main/graphql/org/example/localhost/GetAllNewspapers.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/src/main/graphql/org/example/localhost/UpdateNewspaper.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/src/main/graphql/org/example/localhost/schema.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/src/main/kotlin/main/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/src/main/kotlin/modelo/Article.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/src/main/kotlin/modelo/Newspaper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/src/main/kotlin/ui/PrincipalController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/GraphqlRubenHitaCliente/src/main/resources/fxml/principal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/DaoQuerys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/DaoQuerys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/NewspaperDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/NewspaperDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/ReaderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/ReaderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/impl/ArticleHibDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/impl/ArticleHibDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/impl/DaoQuerysImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/impl/DaoQuerysImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/impl/NewspaperDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/impl/NewspaperDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/impl/ReaderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/dao/impl/ReaderDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/services/ServicesQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/services/ServicesQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/services/impl/ServicesQueryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/services/impl/ServicesQueryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/services/impl/ServicesReaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/services/impl/ServicesReaderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/ui/main/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoRubenHita/src/main/java/ui/main/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAssigmentRubenHita/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAssigmentRubenHita/.idea/sonarlint/issuestore/c/f/cff6d145921ddeabb9a0cb2206d7e81c1ab1e450" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAssigmentRubenHita/.idea/sonarlint/issuestore/d/c/dc2ad7f96bcb7f869abc97016b0d27fc06e72770" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAssigmentRubenHita/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondAssigmentRubenHita/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAssigmentRubenHita/src/main/java/dao/DBConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondAssigmentRubenHita/src/main/java/dao/DBConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4aff0315fc6d06d004904ce4907782cb39f830cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/794a37fcc969eb930490d1dccb988408acf6c8c8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/01_Tipos/.ipynb_checkpoints/Tipos-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/02_Colecciones/.ipynb_checkpoints/Colecciones-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/03_Control_flujo/.ipynb_checkpoints/Control_flujo-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/04_RW/.ipynb_checkpoints/rw-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/05_POO/.ipynb_checkpoints/OOP-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/06_Modulos/images/a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/06_Modulos/images/c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/06_Modulos/images/d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/06_Modulos/images/p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/06_Modulos/images/r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/06_Modulos/images/t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/07_NumPy/.ipynb_checkpoints/NumPy-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/07_NumPy/red_neuronal.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/08_Matplotlib/.ipynb_checkpoints/Matplotlib-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/08_Matplotlib/el_quijote.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/09_random/.ipynb_checkpoints/numeros_pseudo_aleatorios-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/09_random/.ipynb_checkpoints/numeros_pseudo_aleatorios_copia-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python/09_random/numeros_pseudo_aleatorios_copia.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GESTION EMPRESAS/python2/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/FlowsRubenHita/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/FlowsRubenHita/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/FlowsRubenHita/app/src/main/java/com/example/flowsrubenhita/data/Repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/FlowsRubenHita/app/src/main/java/com/example/flowsrubenhita/data/Repository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/FlowsRubenHita/app/src/main/java/com/example/flowsrubenhita/ui/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/FlowsRubenHita/app/src/main/java/com/example/flowsrubenhita/ui/MainFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/theme/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/main/theme/Color.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/main/theme/Theme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/theme/Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/java/com/example/moviescomposerubenhita/ui/main/theme/Type.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/MoviesComposeRubenHita/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/MoviesRubenHita/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/MoviesRubenHita/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/RoomConRelaciones/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/RoomConRelaciones/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/RoomConRelaciones/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/RoomConRelaciones/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MOVILES/RoomConRelaciones/app/src/main/java/com/example/roomconrelaciones/data/modelo/JugadorEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MOVILES/RoomConRelaciones/app/src/main/java/com/example/roomconrelaciones/data/modelo/JugadorEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/dao/DaoGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/dao/DaoGenerics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/dao/DaoUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/dao/DaoUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/dao/impl/DaoUserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/dao/impl/DaoUserImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/retrofit/ProducesRetrofit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/retrofit/ProducesRetrofit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/retrofit/llamadas/UsersAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/retrofit/llamadas/UsersAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/retrofit/network/AuthorizationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/retrofit/network/AuthorizationInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/services/ServicesUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/services/ServicesUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/services/impl/ServicesUserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/services/impl/ServicesUserImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/ui/common/Pantallas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/ui/common/Pantallas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/ui/pantallas/adminmenu/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/ui/pantallas/adminmenu/AdminState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/ui/pantallas/adminmenu/AdminViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/ui/pantallas/menu/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/ui/pantallas/menu/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/ui/pantallas/menu/MenuState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/ui/pantallas/menu/MenuState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/ui/pantallas/menu/MenuViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/java/ui/pantallas/menu/MenuViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/resources/fxml/adminmenu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/resources/fxml/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/cliente/src/main/resources/fxml/menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/seguridad/src/main/java/claves/Claves.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/seguridad/src/main/java/claves/Claves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/seguridad/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/CajaFuerteAsimetricoRubenHita/seguridad/src/main/java/module-info.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2IrDP79CxIpWbSm4zdZVTchb9xA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "import_schema_mapping": "<schema-mapping>\n  <databases>\n    <list>\n      <schema-mapping-item>\n        <source-data-source-id>be4dba51-bf26-4c64-a62e-be1ea079206e</source-data-source-id>\n        <source-path>schema/&quot;RubenHita_Newspaper&quot;</source-path>\n        <target-data-source-id>eaab2e28-b5b2-47df-a775-6faee1e3d110</target-data-source-id>\n        <target-path>schema/&quot;Newspaper&quot;</target-path>\n      </schema-mapping-item>\n    </list>\n  </databases>\n</schema-mapping>",
+    "last_opened_file_path": "C:/Users/morar/Desktop/2DAMCosas/ACCESO DATOS/SecondAssigmentRubenHita",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "ca9d56db7913b65d52056c3960542e39",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="DIJavafx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.main.DIJavafx" />
+      <module name="ThirdAssigmentRubenHita" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DIJavafx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98207ce0-1311-4b9d-8784-871a247d5fb6" name="Changes" comment="" />
+      <created>1670930783673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670930783673</updated>
+      <workItem from="1670930784985" duration="5706000" />
+      <workItem from="1670942217053" duration="1581000" />
+      <workItem from="1671012149181" duration="39000" />
+      <workItem from="1671057653640" duration="1207000" />
+      <workItem from="1671438295318" duration="48000" />
+      <workItem from="1671453261367" duration="1944000" />
+      <workItem from="1671463759845" duration="18000" />
+      <workItem from="1671532926832" duration="10000" />
+      <workItem from="1671532948137" duration="7907000" />
+      <workItem from="1671565216561" duration="70000" />
+      <workItem from="1672831558035" duration="23000" />
+      <workItem from="1673266153722" duration="1256000" />
+      <workItem from="1673267423109" duration="2593000" />
+      <workItem from="1673347392349" duration="8737000" />
+      <workItem from="1673379255844" duration="3250000" />
+      <workItem from="1673430874118" duration="9422000" />
+      <workItem from="1673460652432" duration="4298000" />
+      <workItem from="1673509672429" duration="618000" />
+      <workItem from="1673812359349" duration="98000" />
+      <workItem from="1673812739709" duration="3321000" />
+      <workItem from="1673857934149" duration="599000" />
+      <workItem from="1674730231858" duration="30000" />
+      <workItem from="1677242342984" duration="1258000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

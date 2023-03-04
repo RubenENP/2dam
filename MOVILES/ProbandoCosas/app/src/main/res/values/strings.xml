@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ProbandoCosas</string>
+    <string name="name">name</string>
+    <string name="nombre">Nombre</string>
+    <string name="futbolista">Futbolista</string>
+    <string name="champions_ganadas">Champions Ganadas</string>
+    <string name="balones_de_oro">Balones de oro</string>
+    <string name="posicion">Posicion</string>
+    <string name="nombreFutbolista">Nombre</string>
+    <string name="a_adir_futbolista">Añadir Futbolista</string>
+    <string name="portero">Portero</string>
+    <string name="defensa">Defensa</string>
+    <string name="mediocentro">Mediocentro</string>
+    <string name="delantero">Delantero</string>
+    <string name="anyadir_jugador">Añadir Jugador</string>
+</resources>

@@ -1,0 +1,26 @@
+
+u
+java:S1104"ZMake newspaperTable a static final constant or non-public and provide accessors if needed.(‘Ëó‡şÿÿÿÿ
+s
+java:S1104"]Make idNewspaperColumn a static final constant or non-public and provide accessors if needed.(çïøè
+z
+java:S1104"_Make nameNewspaperColumn a static final constant or non-public and provide accessors if needed.(Æ»‡İøÿÿÿÿ
+
+java:S1104"fMake releaseDateNewspaperColumn a static final constant or non-public and provide accessors if needed.(“Ğ·ùÿÿÿÿ
+n
+java:S1104"YMake articlesTable a static final constant or non-public and provide accessors if needed.(ïÃİ
+q
+java:S1104"[Make idArticleColumn a static final constant or non-public and provide accessors if needed.(üÊè
+t
+java:S1104"^Make titleArticleColumn a static final constant or non-public and provide accessors if needed.(…‚ªâ
+z
+java:S1104"dMake descriptionArticleColumn a static final constant or non-public and provide accessors if needed.(¼¤Îğ
+x
+java:S1104 "]Make typeArticleColumn a static final constant or non-public and provide accessors if needed.(ÇÕÇışÿÿÿÿ
+k
+java:S1104!"UMake rateField a static final constant or non-public and provide accessors if needed.(Š°Àº
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Åªƒ‹şÿÿÿÿ
+P
+java:S1128"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ıÿÿÿÿ
+O
+java:S1128"4Remove this unused import 'services.ServicesReader'.(Áâ±óüÿÿÿÿ

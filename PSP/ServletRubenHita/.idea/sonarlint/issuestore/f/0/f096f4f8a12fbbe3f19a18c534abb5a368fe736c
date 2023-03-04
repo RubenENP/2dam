@@ -1,0 +1,9 @@
+
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğÁÈ¶ÿÿÿÿÿ8¦Åú–Ğ0
+w
+java:S1450"ZRemove the "application" field and declare it as a local variable in the relevant methods.(Şù©ê8¨Åú–Ğ0
+
+java:S1450"]Remove the "templateEngine" field and declare it as a local variable in the relevant methods.(ûàÛıÿÿÿÿ8ªÅú–Ğ0
+d
+java:S1117""BRename "templateEngine" which hides the field declared at line 18.(ÏÜøıÿÿÿÿ8®Åú–Ğ0

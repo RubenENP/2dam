@@ -1,0 +1,26 @@
+
+A
+java:S1172",Remove this unused method parameter "stage".(‹úÇc
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¼òÒ¥
+H
+java:S6126"2Replace this String concatenation with Text block.(¼òÒ¥
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(‰§ìá
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(âşÊûıÿÿÿÿ8¾‰–•å0
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(Ï„È‹ùÿÿÿÿ8¾‰–•å0
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(”‰ĞÈüÿÿÿÿ8¿‰–•å0
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(”Ò”˜ûÿÿÿÿ8¿‰–•å0
+U	java:S106T"9Replace this use of System.out or System.err by a logger.(®»Àˆ8À‰–•å0
+U	java:S106X"9Replace this use of System.out or System.err by a logger.(Ï–£×8À‰–•å0
+Z	java:S106\"9Replace this use of System.out or System.err by a logger.(Üùœşüÿÿÿÿ8À‰–•å0
+U	java:S106`"9Replace this use of System.out or System.err by a logger.(µûÂ8Á‰–•å0
+Z	java:S106d"9Replace this use of System.out or System.err by a logger.(³˜‘Ãøÿÿÿÿ8Á‰–•å0
+U	java:S106h"9Replace this use of System.out or System.err by a logger.(ÿ¶‚µ8Á‰–•å0
+U	java:S106l"9Replace this use of System.out or System.err by a logger.(×ú‘“8Â‰–•å0
+T	java:S106p"9Replace this use of System.out or System.err by a logger.(æ°‡D8Â‰–•å0
+Z	java:S106t"9Replace this use of System.out or System.err by a logger.(Œ¡…¥øÿÿÿÿ8Â‰–•å0
+Z	java:S106x"9Replace this use of System.out or System.err by a logger.(‡£›Ğúÿÿÿÿ8Ã‰–•å0
+Z	java:S106|"9Replace this use of System.out or System.err by a logger.(œÄ³îûÿÿÿÿ8Ã‰–•å0
+V	java:S106€"9Replace this use of System.out or System.err by a logger.(Á™¤¨8Ä‰–•å0
+[	java:S106"9Replace this use of System.out or System.err by a logger.(˜ÅßÅøÿÿÿÿ8Ä‰–•å0
+[	java:S106…"9Replace this use of System.out or System.err by a logger.(À¶şÇÿÿÿÿÿ8Ä‰–•å0
+[	java:S106†"9Replace this use of System.out or System.err by a logger.(‰÷Âşÿÿÿÿ8Ä‰–•å0

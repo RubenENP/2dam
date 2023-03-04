@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MundialRubenHita</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="partidos">Partidos</string>
+    <string name="inicio">Inicio</string>
+    <string name="grupos">Grupos</string>
+    <string name="qatarimg">qatarimg</string>
+    <string name="portugal">Portugal</string>
+    <string name="bandera">bandera</string>
+    <string name="alineacion">alineacion</string>
+    <string name="porra">Porra</string>
+    <string name="simulador">Simulador</string>
+    <string name="ranking_de_la_fifa_3">Ranking de la FIFA: 3</string>
+    <string name="apostar">Apostar</string>
+    <string name="codere">Codere</string>
+    <string name="vs">VS</string>
+    <string name="recargar">recargar</string>
+    <string name="ver_nmas">Ver \nmas</string>
+    <string name="empate">Empate</string>
+    <string name="apuesta">Apuesta</string>
+    <string name="tu_dinero_1000">Tu dinero: 1000€</string>
+    <string name="back">back</string>
+    <string name="_1_5">1.5€</string>
+    <string name="registros">Registros</string>
+    <string name="aqui_saldran_los_registros_de_todas_tus_apuestas">Aqui saldran los registros de todas tus apuestas</string>
+    <string name="grafica">grafica</string>
+    <string name="balance">Balance:</string>
+    <string name="dinero">Dinero:</string>
+    <string name="resultado">Resultado:</string>
+    <string name="eliminatoria">Eliminatoria</string>
+    <string name="grupo_a">GRUPO A</string>
+    <string name="iniciar_simulacion">Iniciar Simulacion</string>
+    <string name="octavos">Octavos</string>
+</resources>

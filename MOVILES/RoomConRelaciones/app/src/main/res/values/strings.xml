@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RoomConRelaciones</string>
+    <string name="borrar">borrar</string>
+    <string name="ver_equipo">ver equipo</string>
+    <string name="equipo">Equipo</string>
+    <string name="estadio">Estadio</string>
+    <string name="jugadores">Jugadores</string>
+    <string name="addequipo">addEquipo</string>
+    <string name="nombre">Nombre</string>
+    <string name="a_adir_equipo">Añadir Equipo</string>
+    <string name="posicion">Posicion</string>
+    <string name="titulos">Titulos</string>
+    <string name="a_adir_jugador">Añadir Jugador</string>
+    <string name="portero">Portero</string>
+    <string name="defensa">Defensa</string>
+    <string name="mediocentro">Mediocentro</string>
+    <string name="delantero">Delantero</string>
+    <string name="actualizar_equipo">Actualizar equipo</string>
+</resources>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Mazmorra_RubenHita_JorgeMartinLuengo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Mazmorra_RubenHita_JorgeMartinLuengo_jar</output-path>
+    <root id="archive" name="Mazmorra_RubenHita_JorgeMartinLuengo.jar">
+      <element id="module-output" name="JavaSwing" />
+    </root>
+  </artifact>
+</component>

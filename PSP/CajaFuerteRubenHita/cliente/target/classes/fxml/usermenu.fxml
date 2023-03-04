@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.usermenu.UserController">
+    <TableView fx:id="carpetaTable" layoutX="37.0" layoutY="74.0" prefHeight="234.0" prefWidth="238.0">
+      <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="75.0" text="name" />
+          <TableColumn fx:id="permisoColumn" prefWidth="84.00003051757812" text="permiso" />
+          <TableColumn fx:id="usuarioColumn" prefWidth="79.19999694824219" text="ususario" />
+      </columns>
+    </TableView>
+   <TextField fx:id="permisoField" layoutX="37.0" layoutY="364.0" promptText="Permiso" />
+   <TextField fx:id="passField" layoutX="37.0" layoutY="398.0" promptText="Contraseña" />
+   <TextField fx:id="carpetaNameField" layoutX="37.0" layoutY="321.0" promptText="Name" />
+   <Label layoutX="37.0" layoutY="347.0" text="Lectura=1, Escritura=2" />
+   <Button layoutX="37.0" layoutY="424.0" mnemonicParsing="false" onAction="#crearCarpeta" text="Crear Carpeta" />
+   <Button layoutX="37.0" layoutY="36.0" mnemonicParsing="false" onAction="#reload" text="Reload" />
+   <TextArea fx:id="messageTextField" layoutX="301.0" layoutY="74.0" prefHeight="200.0" prefWidth="200.0" />
+   <Button layoutX="301.0" layoutY="287.0" mnemonicParsing="false" onAction="#crearMensaje" text="Crear mensaje" />
+   <Label fx:id="actualUserLabel" layoutX="112.0" layoutY="40.0" text="Eres: " />
+   <TableView fx:id="mensajesTable" layoutX="301.0" layoutY="350.0" prefHeight="234.0" prefWidth="401.0">
+     <columns>
+       <TableColumn fx:id="idMensajeColumn" prefWidth="47.20001220703125" text="id" />
+       <TableColumn fx:id="textMensajeColum" prefWidth="353.5999755859375" text="texto" />
+     </columns>
+   </TableView>
+   <TextField fx:id="contrasenyaDesbloqueoField" layoutX="520.0" layoutY="74.0" promptText="Contraseña" />
+   <Button layoutX="520.0" layoutY="116.0" mnemonicParsing="false" onAction="#desbloquearCarpeta" text="Desbloquear carpeta" />
+   <Button layoutX="241.0" layoutY="411.0" mnemonicParsing="false" onAction="#deleteMessage" text="delete" />
+</AnchorPane>

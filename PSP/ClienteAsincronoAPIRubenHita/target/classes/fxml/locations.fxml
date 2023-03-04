@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="930.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.locations.LocationsController">
+   <Button layoutX="830.0" layoutY="434.0" mnemonicParsing="false" onAction="#atras" text="Atras"/>
+   <Label layoutX="32.0" layoutY="32.0" text="Lugares">
+      <font>
+         <Font size="23.0"/>
+      </font>
+   </Label>
+   <ListView fx:id="nombreLugaresLista" layoutX="32.0" layoutY="66.0" onMouseClicked="#verLugar" prefHeight="401.0"
+             prefWidth="331.0"/>
+   <Label layoutX="389.0" layoutY="206.0" text="Fecha creacion:">
+      <font>
+         <Font size="23.0"/>
+      </font>
+   </Label>
+   <Label fx:id="tipoLbl" layoutX="401.0" layoutY="81.0" text="Tipo:">
+      <font>
+         <Font size="22.0"/>
+      </font>
+   </Label>
+   <Label fx:id="dimensionLbl" layoutX="401.0" layoutY="122.0" text="Dimension:">
+      <font>
+         <Font size="22.0"/>
+      </font>
+   </Label>
+   <DatePicker fx:id="datePicker" layoutX="389.0" layoutY="240.0" prefHeight="122.0" prefWidth="262.0"/>
+</AnchorPane>

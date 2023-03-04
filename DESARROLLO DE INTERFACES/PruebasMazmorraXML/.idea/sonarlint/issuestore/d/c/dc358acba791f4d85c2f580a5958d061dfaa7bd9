@@ -1,0 +1,83 @@
+
+a	java:S112…"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112Š"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+c	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ğú§Ó8íÿ¤ÅŞ0
+b
+java:S1192ˆ"FDefine a constant instead of duplicating this literal "level" 4 times.(¬ú‚Ùûÿÿÿÿ
+^
+java:S1192‡"GDefine a constant instead of duplicating this literal "domain" 5 times.(ûÄ­â
+P
+java:S1141f"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+f	java:S117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒØ¸
+k	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑĞæÂÿÿÿÿÿ
+g
+java:S1301Ó"KReplace this "switch" statement by "if" statements to increase readability.(Ò®ÿÁıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Â”§†ûÿÿÿÿ
+I
+java:S2755h"3Disable access to external entities in XML parsing.(‹ñšÑ
+I
+java:S2755q"3Disable access to external entities in XML parsing.(²µŸš
+v
+java:S3008:"[Rename this field "DESCRIPTION_HOME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Œáòÿÿÿÿÿ
+p
+java:S3008;"ZRename this field "INITIAL_COMFORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖŠĞš
+s
+java:S3008<"XRename this field "INITIAL_SINGA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄóÁµşÿÿÿÿ
+w
+java:S3008="aRename this field "INITIAL_SINGA_CAPACITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¶Á°
+|
+java:S3008>"aRename this field "INITIAL_CHEST_CAPACITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ‡Ì ùÿÿÿÿ
+q
+java:S3008@"VRename this field "CHEST_ITEMS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÔËşÿÿÿÿ
+e
+java:S3008B"PRename this field "CHEST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¿òC
+h
+java:S3008E"RRename this field "LIBRARY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–°«Ç
+o
+java:S3008G"YRename this field "LIBRARY_SPELLS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚“ÎÜ
+r
+java:S3008K"WRename this field "INITIAL_LIFE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨×Îşûÿÿÿÿ
+q
+java:S3008L"[Rename this field "INITIAL_LIFE_MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ŒŒ¦
+n
+java:S3008M"YRename this field "INITIAL_ENERGY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÿ±j
+s
+java:S3008N"]Rename this field "INITIAL_ENERGY_MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Êˆó
+
+java:S3008O"kRename this field "INITIAL_CRYSTAL_CARRIER_CAPACITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»”¥Ä
+}
+java:S3008P"gRename this field "INITIAL_CRYSTAL_BAG_CAPACITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„µÑ¬
+y
+java:S3008Q"^Rename this field "INITIAL_MAX_WEAPONS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚°‹¿şÿÿÿÿ
+{
+java:S3008R"`Rename this field "INITIAL_MAX_NECKLACES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úœÙğıÿÿÿÿ
+w
+java:S3008S"\Rename this field "INITIAL_MAX_RINGS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÇßÿıÿÿÿÿ
+œ
+java:S1186W"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹‘¶Üúÿÿÿÿ
+œ
+java:S1186["€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‡ˆæœùÿÿÿÿ
+c
+java:S2147"ECombine this catch with the one at line 127, which has the same body.(‘â«°8¨‰ŸÆŞ0
+c
+java:S2147†"ECombine this catch with the one at line 127, which has the same body.(öÅº8¨‰ŸÆŞ0
+c
+java:S2147‰"ECombine this catch with the one at line 132, which has the same body.(³é 8“¥ÅŞ0
+S	java:S106m"9Replace this use of System.out or System.err by a logger.(²àéÁüÿÿÿÿ
+M	java:S106u"9Replace this use of System.out or System.err by a logger.(öÓÜ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(÷ËÜx
+Q	java:S125·"<This block of commented-out lines of code should be removed.(¦‚Ï
+R	java:S125»"<This block of commented-out lines of code should be removed.( ú’µ
+=	java:S131Ó""Add a default case to this switch.(Ò®ÿÁıÿÿÿÿ
+R	java:S125Ö"<This block of commented-out lines of code should be removed.(Ùéâõ
+W	java:S125â"<This block of commented-out lines of code should be removed.(ƒû§ìúÿÿÿÿ
+T	java:S106ë"9Replace this use of System.out or System.err by a logger.(¶âåŸşÿÿÿÿ
+n	java:S131"YComplete cases by adding the missing enum constants or add a default case to this switch.(ÓÌ¹-
+|
+java:S1130²"^Remove the redundant 'game.object.ItemCreationErrorException' thrown exception declaration(s).(•£ù‡8Ä‰ŸÆŞ0
+D	java:S131È""Add a default case to this switch.(ÿüëÚùÿÿÿÿ8Æ‰ŸÆŞ0
+Y
+java:S3252Š"=Use static access with "org.w3c.dom.Node" for "ELEMENT_NODE".(¸‹ÿ¶úÿÿÿÿ
+;
+java:S1128%"Remove this duplicated import.(ÿ©§8Ë‰ŸÆŞ0

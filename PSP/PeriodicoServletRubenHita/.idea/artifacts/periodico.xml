@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="periodico">
+    <output-path>$PROJECT_DIR$/out/artifacts/periodico</output-path>
+    <root id="archive" name="periodico.war" />
+  </artifact>
+</component>

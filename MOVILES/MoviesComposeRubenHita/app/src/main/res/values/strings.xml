@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MoviesComposeRubenHita</string>
+    <string name="biblioteca">Biblioteca</string>
+    <string name="actores">Actores</string>
+    <string name="title_activity_searched_movie_list">SearchedMovieList</string>
+    <string name="main">Home</string>
+    <string name="biblioteca_activity">BibliotecaActivity</string>
+</resources>

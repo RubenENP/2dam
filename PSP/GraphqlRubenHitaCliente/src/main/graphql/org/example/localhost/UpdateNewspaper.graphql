@@ -1,0 +1,6 @@
+mutation UpdateNewspaper($id: ID!, $nameNewspaper: String!){
+    updateNewspaper(id: $id, nameNewspaper: $nameNewspaper){
+        id
+        nameNewspaper
+    }
+}

@@ -1,0 +1,18 @@
+@startuml
+class Creature{
+    - int life;
+    - int punch;
+    - Magic_Type type;
+    - ArrayList<Spell> spells;
+    + Creature(Magic_Type t, int l, int p)
+    + int getLife()
+    + int getPunch()
+    + void beat(int value) throws CreatureKilledException
+    + String toString ()
+}
+
+class CreatureKilledException
+
+Creature <- CreatureKilledException
+
+@enduml

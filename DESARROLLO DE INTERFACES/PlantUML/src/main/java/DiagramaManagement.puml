@@ -1,0 +1,84 @@
+@startuml
+class ConfigValues{
++ static final int INITIAL_COMFORT = 1;
+    + static final int INITIAL_SINGA = 10;
+    + static final int INITIAL_SINGA_CAPACITY = 50;
+    + static final int INITIAL_STORAGE_CAPACITY = 4;
+    + static final int INITIAL_LIFE = 10;
+    + static final int INITIAL_LIFE_MAX = 10;
+    + static final int INITIAL_ENERGY = 10;
+    + static final int INITIAL_ENERGY_MAX = 10;
+    + static final int INITIAL_CRYSTAL_CARRIER_CAPACITY = 5;
+    + static final int INITIAL_MAX_WEAPONS = 1;
+    + static final int INITIAL_MAX_NECKLACES = 1;
+    + static final int INITIAL_MAX_RINGS = 2;
+
+    //HOME related values
+    + static final int COMFORT_MODIFIER_FOR_ENERGY = 10; //Applied to energy recovery
+    + static final int STONE_INCREASE = 50;
+    + static final int BASIC_INCREASE = 1;
+
+    + static final int GENERIC_UPGRADE_COST = 10;
+    + static final int COMFORT_UPGRADE_COST = 100;
+
+    + static final int SINGA_PER_LIFEPOINT_COST = 3;
+
+    //Crystal regeneration
+    + static final int CRYSTALS_PER_DAY = 3;
+    + static final int SINGA_PER_CRYSTAL = 10;
+
+    //Energy consumption
+    + static final int BASIC_ENERGY_CONSUMPTION = 1;
+
+    //Creature encounters
+    + static final int MINIMUM_FOR_RUN_AWAY = 30;
+    + static final int FIGHT_SUCCESS_HIGHT = 20;
+    + static final int FIGHT_SUCCESS_MEDIUM = 50;
+    + static final int FIGHT_SUCCESS_LOW = 80;
+}
+
+class Demiurge{
+private DungeonLoader dungeonLoader;
+    - int day;
+    - Dungeon dungeon;
+    - Room currentRoom;
+    - Home home;
+    - Wizard wizard;
+    + Demiurge(DungeonLoader dl)
+    -void createEnvironment()
+    -int getDay()
+    -void nextDay()
+    -void setDungeon(Dungeon dungeon)
+    -Room getCurrentSite()
+    -Home getHome()
+    -void setHome(Home home)
+    -Wizard getWizard()
+    -void setWizard(Wizard wizard)
+    -void setWizardName(String n)
+    -ArrayList<Crystal> getWizardCrystals()
+    -void recover(int points) throws HomeNoSingaException, WizardLifePointsExcededException, WizardTiredException
+    -void upgradeLifeMax() throws HomeNoSingaException, WizardNoEnergyException, WizardTiredException
+    -void upgradeEnergyMax() throws HomeNoSingaException, WizardNoEnergyException, WizardTiredException
+    -void upgradeComfort() throws HomeNoSingaException, WizardNoEnergyException, WizardTiredException
+    -void upgradeSingaMax() throws HomeNoSingaException, WizardNoEnergyException, WizardTiredException
+    -void mergeCrystal(int position) throws WizardTiredException
+    -void gatherCrystals() throws CrystalCarrierFullException, RoomCrystalEmptyException
+    -void storageAddItem(int i) throws StorageFullException
+    -void storageDeleteItem(int i)
+    -void storagePutItem(int i) throws WereablesFullException
+    -void storageExchangeItem(int fromStorage, int fromWizard) throws WereableIncompatibleException
+    -void enterDungeon() throws WizardTiredException
+    -void openDoor(int index) throws WizardTiredException, HomeBackException
+    -void roomTakeItem(int i) throws WereablesFullException
+    -void roomExchangeItem(int fromRoom, int fromWizard) throws WereableIncompatibleException
+    -boolean canRunAway()
+    -boolean priority()
+    -boolean wizardAttack() throws CreatureKilledException, WizardNoWeaponException, WizardTiredException
+    -boolean creatureAttack() throws WizardDeathException
+}
+
+interface DungeonLoader
+
+DungeonLoader <- Demiurge: implements
+
+@enduml

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.login.LoginController">
+   <TextField fx:id="userFieldLog" layoutX="38.0" layoutY="129.0" promptText="usuario" />
+   <PasswordField fx:id="contrasenyaFieldLog" layoutX="38.0" layoutY="177.0" promptText="contraseña" />
+   <Button layoutX="38.0" layoutY="233.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="70.0" text="Login" />
+   <Button layoutX="525.0" layoutY="353.0" mnemonicParsing="false" onAction="#atras" text="Atras" />
+   <Button layoutX="253.0" layoutY="226.0" mnemonicParsing="false" onAction="#register" prefHeight="26.0" prefWidth="70.0" text="Register" />
+   <TextField fx:id="emailFieldReg" layoutX="235.0" layoutY="84.0" promptText="correo" />
+   <PasswordField fx:id="contrasenyaFieldReg" layoutX="235.0" layoutY="177.0" promptText="contraseña" />
+   <TextField fx:id="userFieldReg" layoutX="235.0" layoutY="129.0" promptText="usuario" />
+   <Button layoutX="38.0" layoutY="272.0" mnemonicParsing="false" onAction="#recuperarPassword" text="has olvidado tu contraseña?" />
+   <TextField fx:id="usuarioRecuperarField" layoutX="39.0" layoutY="313.0" promptText="usuario" />
+   <Button layoutX="521.0" layoutY="23.0" mnemonicParsing="false" onAction="#logout" text="logout" />
+   <Label fx:id="pista" layoutX="419.0" layoutY="92.0" prefHeight="34.0" prefWidth="127.0" text="user: admin pass: admin" />
+   <Label fx:id="pista1" layoutX="419.0" layoutY="124.0" prefHeight="34.0" prefWidth="150.0" text="user: Barral pass: 12345678" />
+</AnchorPane>

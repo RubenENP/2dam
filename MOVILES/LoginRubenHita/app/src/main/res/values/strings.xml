@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LoginRubenHita</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="btn_login">Login</string>
+    <string name="edit_text">Usuario</string>
+    <string name="edit_text1">Contraseña</string>
+</resources>

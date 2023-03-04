@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JFecha:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JFecha_jar</output-path>
+    <root id="archive" name="JFecha.jar">
+      <element id="module-output" name="JFecha" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+#Exercise 1
+select * from Article where 1 = idType AND 1 = idNewsPaper;
+
+#Exercise 2
+select description , count(id) from Article group by description, id;
+
+#Exercise 3
+select name from Subscriptions, Readers where idNewspaper = 4 limit 100;

@@ -1,0 +1,4 @@
+1;Marca;1.0;Manolo
+2;New york times;30.0;Ansu fati
+3;AS;10.0;Manolo lama
+4;BBC;14.0;Pedro sanchez

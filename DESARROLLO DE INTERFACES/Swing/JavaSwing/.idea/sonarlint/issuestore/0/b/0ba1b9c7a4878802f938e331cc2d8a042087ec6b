@@ -1,0 +1,61 @@
+
+\
+java:S1192]"FDefine a constant instead of duplicating this literal "Oeste" 3 times.(•îàº
+a
+java:S1192W"FDefine a constant instead of duplicating this literal "Norte" 3 times.(Œýß½ÿÿÿÿÿ
+l
+java:S1104"VMake actualRoom a static final constant or non-public and provide accessors if needed.(Šþ¤ù
+l
+java:S1104"QMake north a static final constant or non-public and provide accessors if needed.(Œ‰¡¡üÿÿÿÿ
+g
+java:S1104"QMake south a static final constant or non-public and provide accessors if needed.(Òœ·Ý
+k
+java:S1104"PMake east a static final constant or non-public and provide accessors if needed.(Ûü‹žøÿÿÿÿ
+f
+java:S1104"PMake west a static final constant or non-public and provide accessors if needed.(¥Žëú
+o
+java:S1104"TMake textArea a static final constant or non-public and provide accessors if needed.(´“éÙûÿÿÿÿ
+m
+java:S1104 "WMake comentarios a static final constant or non-public and provide accessors if needed.(Êåž
+k
+java:S1104""UMake leftPanel a static final constant or non-public and provide accessors if needed.(‘èÀô
+q
+java:S1104#"VMake rightPanel a static final constant or non-public and provide accessors if needed.(Ì®×Êøÿÿÿÿ
+o
+java:S1104%"TMake xmljTree a static final constant or non-public and provide accessors if needed.(ýáþíûÿÿÿÿ
+F
+java:S1444"0Make this "public static actualRoom" field final(Šþ¤ù
+F
+java:S1444"+Make this "public static north" field final(Œ‰¡¡üÿÿÿÿ
+A
+java:S1444"+Make this "public static south" field final(Òœ·Ý
+E
+java:S1444"*Make this "public static east" field final(Ûü‹žøÿÿÿÿ
+@
+java:S1444"*Make this "public static west" field final(¥Žëú
+I
+java:S1444".Make this "public static textArea" field final(´“éÙûÿÿÿÿ
+G
+java:S1444 "1Make this "public static comentarios" field final(Êåž
+E
+java:S1444""/Make this "public static leftPanel" field final(‘èÀô
+K
+java:S1444#"0Make this "public static rightPanel" field final(Ì®×Êøÿÿÿÿ
+I
+java:S1444%".Make this "public static xmljTree" field final(ýáþíûÿÿÿÿ
+I
+java:S2755~"3Disable access to external entities in XML parsing.(ð¨ºî
+=	java:S131¬""Add a default case to this switch.(–¤‚Ñýÿÿÿÿ
+L
+java:S1128	"7Remove this unused import 'javax.swing.tree.TreeModel'.(‚éÝ-
+Q
+java:S1128
+"6Remove this unused import 'javax.swing.tree.TreeNode'.(š­©Òûÿÿÿÿ
+f
+java:S1128"KRemove this unused import 'javax.xml.parsers.ParserConfigurationException'.(ûýƒøÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'javax.xml.transform'.(ÆÃ©
+Y
+java:S1128">Remove this unused import 'javax.xml.transform.dom.DOMSource'.(¾Ñ¶âùÿÿÿÿ
+Z
+java:S1128"DRemove this unused import 'javax.xml.transform.stream.StreamResult'.(Æ‹ëÿ

@@ -1,0 +1,59 @@
+<dungeon>
+    <room id="R0">
+        <door name="Norte" dest="R1"/>
+        <door name="Sur" dest="R2"/>
+        <door name="Oeste" dest="R4"/>
+        <door name="Este" dest="R3"/>
+        <description>Inicio</description>
+    </room>
+    <room id="R1">
+        <door name="Sur" dest="R0"/>
+        <door name="Oeste" dest="R8"/>
+        <door name="Este" dest="R6"/>
+        <description>Habitación Norte</description>
+    </room>
+    <room id="R2">
+        <door name="Norte" dest="R0"/>
+        <door name="Oeste" dest="R7"/>
+        <door name="Este" dest="R5"/>
+        <description>Habitación Sur</description>
+    </room>
+
+    <room id="R3">
+        <door name="Oeste" dest="R0"/>
+        <door name="Norte" dest="R6"/>
+        <door name="Sur" dest="R5"/>
+        <description>Habitación Este</description>
+    </room>
+
+    <room id="R4">
+        <door name="Este" dest="R0"/>
+        <door name="Norte" dest="R8"/>
+        <door name="Sur" dest="R7"/>
+        <description>Habitación Oeste</description>
+    </room>
+
+    <room id="R5">
+        <door name="Oeste" dest="R2"/>
+        <door name="Norte" dest="R3"/>
+        <description>Habitación Sur Este</description>
+    </room>
+
+    <room id="R6">
+        <door name="Oeste" dest="R1"/>
+        <door name="Sur" dest="R3"/>
+        <description>Habitación NorEste</description>
+    </room>
+
+    <room id="R7">
+        <door name="Este" dest="R2"/>
+        <door name="Norte" dest="R4"/>
+        <description>Habitación SurOeste</description>
+    </room>
+
+    <room id="R8">
+        <door name="Este" dest="R1"/>
+        <door name="Sur" dest="R4"/>
+        <description>Habitación NorOeste</description>
+    </room>
+</dungeon>

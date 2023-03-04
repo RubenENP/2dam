@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.articles.ArticlesController">
+    <TableView fx:id="articlesTable" layoutX="250.0" layoutY="61.0" prefHeight="297.0" prefWidth="324.0">
+        <columns>
+            <TableColumn fx:id="idColumn" prefWidth="34.0" text="id" />
+            <TableColumn fx:id="nameColumn" prefWidth="116.0" text="name" />
+            <TableColumn fx:id="descriptionColumn" prefWidth="173.0" text="description" />
+        </columns>
+    </TableView>
+   <Button layoutX="503.0" layoutY="361.0" mnemonicParsing="false" onAction="#atras" text="Atras" />
+   <Button layoutX="11.0" layoutY="90.0" mnemonicParsing="false" onAction="#buscarPorTipo" text="Buscar por tipo" />
+   <TextField fx:id="nameField" layoutX="13.0" layoutY="143.0" prefHeight="25.0" prefWidth="174.0" promptText="name" />
+   <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#addArticle" text="Añadir articles" />
+   <Button layoutX="250.0" layoutY="27.0" mnemonicParsing="false" onAction="#reload" text="reload" />
+   <TextArea fx:id="descriptionField" layoutX="15.0" layoutY="178.0" prefHeight="107.0" prefWidth="168.0" promptText="description" />
+   <ComboBox fx:id="comboTipo" layoutX="13.0" layoutY="49.0" prefWidth="150.0" />
+   <ComboBox fx:id="comboTipo1" layoutX="13.0" layoutY="297.0" prefWidth="150.0" promptText="tipo" />
+   <ComboBox fx:id="comboNewspaper" layoutX="13.0" layoutY="333.0" prefWidth="150.0" promptText="newspaper" />
+</AnchorPane>

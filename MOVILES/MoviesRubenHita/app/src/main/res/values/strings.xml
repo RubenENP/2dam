@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MoviesRubenHita</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">The Movie DB</string>
+    <string name="nav_header_subtitle">The best Movie Database</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_genre">Genres</string>
+    <string name="menu_buscador">Buscador</string>
+    <string name="matrix">Matrix</string>
+    <string name="fecha">1992-02-11</string>
+    <string name="movieimage">movieImage</string>
+    <string name="selecciona_genero">Selecciona Genero</string>
+    <string name="buscar">Buscar</string>
+    <string name="nombre">Nombre</string>
+    <string name="generos">Generos</string>
+</resources>

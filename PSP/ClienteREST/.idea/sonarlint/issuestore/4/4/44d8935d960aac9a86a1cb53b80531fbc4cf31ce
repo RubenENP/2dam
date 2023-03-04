@@ -1,0 +1,25 @@
+
+b
+java:S1192."LDefine a constant instead of duplicating this literal "name_reader" 4 times.(çèÊ…
+h
+java:S1192)"MDefine a constant instead of duplicating this literal "birth_reader" 4 times.(ıê óúÿÿÿÿ
+f
+java:S2095­"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ø»­İ
+k
+java:S2095Î"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(úÿÿõşÿÿÿÿ
+e
+java:S2095D"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ôà
+f
+java:S2095²"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ùˆõ
+e
+java:S2095g"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(šõ›
+L
+java:S1117$"6Rename "rs" which hides the field declared at line 21.(ôè”
+1
+java:S2275›"Not enough arguments.(ƒ‹¿üÿÿÿÿ
+m
+java:S3457›"Q%n should be used in place of \n to produce the platform-specific line separator.(ƒ‹¿üÿÿÿÿ
+T	java:S106›"9Replace this use of System.out or System.err by a logger.(ƒ‹¿üÿÿÿÿ
+T	java:S106é"9Replace this use of System.out or System.err by a logger.(Ó¡šåúÿÿÿÿ
+G
+java:S1144ã"+Remove this unused private "readRS" method.(§¸çõüÿÿÿÿ

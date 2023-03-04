@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.pantallaMain.MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvNombre"
+        android:layout_width="208dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="@string/nombreFutbolista"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radio_button_1"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/tvBalonesDeOro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombre">
+
+        <RadioButton
+            android:id="@+id/radioPortero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/portero" />
+
+        <RadioButton
+            android:id="@+id/radioDefensa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/defensa" />
+
+        <RadioButton
+            android:id="@+id/radioMediocentro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mediocentro" />
+
+        <RadioButton
+            android:id="@+id/radioDelantero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delantero" />
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvBalonesDeOro"
+        android:layout_width="208dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="@string/balones_de_oro"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toTopOf="@+id/tvChampionsGanadas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvChampionsGanadas"
+        android:layout_width="208dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="@string/champions_ganadas"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineAbajo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBalonesDeOro">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/anyadirButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:contentDescription="@string/anyadir_jugador"
+        android:text="@string/anyadir_jugador"
+        app:icon="@drawable/ic_baseline_add_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guidelineAbajo"
+        app:layout_constraintEnd_toStartOf="@id/cambiarPantalla"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.87" />
+
+    <Button
+        android:id="@+id/cambiarPantalla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cambiar_npantalla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/anyadirButton"
+        app:layout_constraintTop_toTopOf="@+id/guidelineAbajo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+
+f	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡•
+f	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(νίσ
+s	java:S116"YRename this field "name_newspaper" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(τƒ…δψÿÿÿÿ
+q	java:S116"WRename this field "release_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΟΛ„ωÿÿÿÿ
+h	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ªΞ΄ÿÿÿÿÿ
+h	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(΅²μ©ύÿÿÿÿ
+c	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡•
+c	java:S1004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(νίσ
+G
+java:S1128"*Remove this unused import 'lombok.Getter'.(ωÒµΩ8ύΊξ½Δ0
+R
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬θύÿÿÿÿ8ύΊξ½Δ0

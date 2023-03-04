@@ -1,0 +1,25 @@
+
+R
+"src/main/java/dao/DaoFactions.java,9\6\963c95c6c7d1104e114daf446475104b5dc0fae0
+W
+'src/main/java/config/Configuration.java,7\f\7f9a1455549e9958f1cfe6993a695569484b133b
+P
+ src/main/java/model/Weapons.java,5\5\55f3ea838c0f2bd3a9e8e6e9714c93aa8d58a2d2
+A
+data/Factions.xml,8\b\8b63dfc3e33af4fd25ecc62e4afe68aea52928a0
+O
+src/main/java/model/Weapon.java,5\9\598c1ecef2b742a613d2f572e142c76bb1163311
+W
+'src/main/java/dao/DBConnectionPool.java,2\9\299b42bb1e6854997ec216a7ea7031195666e722
+S
+#src/main/java/utils/SQLQueries.java,4\8\48c1dab6b72dcc0938a1e526aa54efeae0568fb7
+O
+src/main/java/ui/Exercise1.java,5\5\5595d98733afd11db78f64ef43edf168aab71a13
+O
+src/main/java/ui/Exercise2.java,f\6\f68fa909a0b37b1babf0d2153afb51c7c80d06b6
+P
+ src/main/java/model/Faction.java,7\1\714f2f415098ee48634acafe8a96d3498fe3878c
+Q
+!src/main/java/model/Factions.java,1\2\12561c88a90692c2456060ae71fe60776d9dca5e
+Z
+*src/main/java/dao/impl/DaoWeaponsImpl.java,b\8\b850c30d1abf17533c54988f0c270a3f1386c0ef

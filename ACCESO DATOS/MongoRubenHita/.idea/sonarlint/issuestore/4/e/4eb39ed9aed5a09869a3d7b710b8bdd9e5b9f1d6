@@ -1,0 +1,37 @@
+
+\
+java:S1192ƒ"FDefine a constant instead of duplicating this literal "$name" 4 times.(Š€Â;
+f
+java:S1192 "KDefine a constant instead of duplicating this literal "$articles" 15 times.(şŸ“¿ÿÿÿÿÿ
+d
+java:S1192$"NDefine a constant instead of duplicating this literal "articles.type" 4 times.(‰ªáï
+b
+java:S1192P"GDefine a constant instead of duplicating this literal "$limit" 3 times.(Æ¦„õşÿÿÿÿ
+_
+java:S1192"IDefine a constant instead of duplicating this literal "$unwind" 25 times.(•ä·õ
+d
+java:S1192q"IDefine a constant instead of duplicating this literal "$project" 7 times.(È†áÅüÿÿÿÿ
+c
+java:S1192%"HDefine a constant instead of duplicating this literal "$group" 11 times.(‚˜˜Àüÿÿÿÿ
+]
+java:S1192$"GDefine a constant instead of duplicating this literal "Sports" 3 times.(‰ªáï
+\
+java:S1192L"FDefine a constant instead of duplicating this literal "count" 4 times.(ÇşÁÁ
+t
+java:S1192È"]Define a constant instead of duplicating this literal "articles.readArticles.rating" 3 times.(İç™‘
+\
+java:S11925"FDefine a constant instead of duplicating this literal "$sort" 4 times.(ÙÃèÓ
+n
+java:S1192""XDefine a constant instead of duplicating this literal "$articles.readArticles" 10 times.(ş¦®Ó
+u
+java:S1192("ZDefine a constant instead of duplicating this literal "$articles.readArticles.id" 4 times.(ø«­³ûÿÿÿÿ
+e
+java:S1192–"IDefine a constant instead of duplicating this literal "articles" 3 times.(°õ—áşÿÿÿÿ
+^
+java:S1192#"HDefine a constant instead of duplicating this literal "$match" 12 times.(ìúµƒ
+f
+java:S2095"IUse try-with-resources or close this "MongoClient" in a "finally" clause.(«ËÌÅ8µâ¤•å0
+K
+java:S1128".Remove this unused import 'org.bson.BsonNull'.(·àŞ°8™Ø¡•å0
+V
+java:S1128	"4Remove this unused import 'org.bson.types.ObjectId'.(Ü¡‰çıÿÿÿÿ8™Ø¡•å0

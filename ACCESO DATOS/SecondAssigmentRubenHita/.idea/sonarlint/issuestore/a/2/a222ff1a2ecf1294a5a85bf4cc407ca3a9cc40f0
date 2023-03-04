@@ -1,0 +1,5 @@
+
+j
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(±û¿ùÿÿÿÿ
+l
+java:S1450"QRemove the "rs" field and declare it as a local variable in the relevant methods.(‰Úèüÿÿÿÿ

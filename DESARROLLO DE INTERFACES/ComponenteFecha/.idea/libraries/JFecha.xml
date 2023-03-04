@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JFecha">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../JFecha/out/artifacts/JFecha_jar/JFecha.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="640.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screen.articles.DescriptionsController">
+   <children>
+      <TableView fx:id="queryTable" layoutX="488.0" layoutY="135.0" prefHeight="370.0" prefWidth="396.0">
+        <columns>
+          <TableColumn fx:id="descriptionColumn" prefWidth="178.0" text="description" />
+          <TableColumn fx:id="numReaderColumn" prefWidth="108.0" text="numReader" />
+            <TableColumn fx:id="nameArticleColumn" prefWidth="109.0" text="nameArticle" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

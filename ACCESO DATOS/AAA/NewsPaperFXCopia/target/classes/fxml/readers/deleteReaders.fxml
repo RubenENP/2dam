@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.readers.DeleteReadersController">
+    <TableView fx:id="tableReaders" layoutX="491.0" layoutY="50.0" prefHeight="399.0" prefWidth="514.0">
+      <columns>
+          <TableColumn fx:id="columnId" prefWidth="46.39996337890625" text="id" />
+          <TableColumn fx:id="columnName" prefWidth="240.0" text="name" />
+          <TableColumn fx:id="columnBirthDate" prefWidth="227.199951171875" text="birth date" />
+      </columns>
+    </TableView>
+    <Button layoutX="89.0" layoutY="50.0" mnemonicParsing="false" onAction="#delete" text="Delete selection" />
+</AnchorPane>

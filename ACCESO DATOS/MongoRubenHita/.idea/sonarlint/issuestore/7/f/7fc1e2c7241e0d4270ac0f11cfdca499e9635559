@@ -1,0 +1,25 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(²ëòùÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(İÃ‚ùÿÿÿÿ
+n
+java:S1104"XMake readersTable a static final constant or non-public and provide accessors if needed.(Š§î¶
+q
+java:S1104"VMake nameColumn a static final constant or non-public and provide accessors if needed.(²ëòùÿÿÿÿ
+}
+java:S1104"bMake cancellationDateColumn a static final constant or non-public and provide accessors if needed.(İÃ‚ùÿÿÿÿ
+p
+java:S1104"UMake nameField a static final constant or non-public and provide accessors if needed.(¾Àˆÿÿÿÿÿ
+x
+java:S1104"bMake datePickerCancellation a static final constant or non-public and provide accessors if needed.(©²³²
+u
+java:S1104"ZMake newspaperTable a static final constant or non-public and provide accessors if needed.(‘Ëó‡şÿÿÿÿ
+s
+java:S1104"]Make idNewspaperColumn a static final constant or non-public and provide accessors if needed.(çïøè
+z
+java:S1104"_Make nameNewspaperColumn a static final constant or non-public and provide accessors if needed.(Æ»‡İøÿÿÿÿ
+
+java:S1104"fMake releaseDateNewspaperColumn a static final constant or non-public and provide accessors if needed.(“Ğ·ùÿÿÿÿ
+K
+java:S1128".Remove this unused import 'ui.common.Screens'.(¢Øñ±8…»¦Ùâ0

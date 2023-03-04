@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">NavigationRubenHita</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inicio">Inicio</string>
+    <string name="partidos">Partidos</string>
+    <string name="imagenqatar">imagenQatar</string>
+    <string name="goleadores">Goleadores</string>
+    <string name="vs">VS</string>
+    <string name="bandera">Bandera</string>
+    <string name="favourite">favourite</string>
+    <string name="grupos">Grupos</string>
+    <string name="imagen">imagen</string>
+    <string name="generar_grupos">Generar Grupos</string>
+    <string name="title_activity_partidos_de_un_grupo">PartidosDeUnGrupo</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="guardar">Guardar</string>
+    <string name="argentina">Argentina</string>
+    <string name="portugal">Portugal</string>
+    <string name="termina_la_fase_de_grupos_crack">Termina la fase de grupos crack :)</string>
+</resources>

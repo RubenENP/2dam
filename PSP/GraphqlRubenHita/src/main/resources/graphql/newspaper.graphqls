@@ -1,0 +1,25 @@
+type Newspaper{
+    id: ID
+    nameNewspaper: String!
+    releaseDate: String!
+}
+
+type Query{
+    getAllNewspapers: [Newspaper]
+    getAllArticles: [Article]
+}
+
+type Mutation{
+    createNewspaper(name: String!, rel_date: String!): Newspaper
+    updateNewspaper(id: ID!, name: String!): Newspaper
+    deleteNewspaper(id: ID!): Newspaper
+    createArticle(title: String!, content: String!, newspaper_id: ID!): Article
+    updateArticle(id: ID!, title: String!, content: String!): Article
+    deleteArticle(id: ID!): Article
+}
+
+type Article{
+    id: ID
+    nombre: String!
+    descripcion: String!
+}

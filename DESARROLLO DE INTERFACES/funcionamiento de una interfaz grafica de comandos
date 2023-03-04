@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" modified="2022-09-15T07:25:46.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_ZXV4SnspseLy06NHCSX" version="20.3.0" type="github">
+  <diagram id="Ih-zCYP8DtRKopWI5wEO" name="Página-1">
+    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o0Cqb0LcrTPR-CG-9lOc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0Cqb0LcrTPR-CG-9lOc-2" target="o0Cqb0LcrTPR-CG-9lOc-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0Cqb0LcrTPR-CG-9lOc-2" value="El usuario escribe un comando" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0Cqb0LcrTPR-CG-9lOc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0Cqb0LcrTPR-CG-9lOc-4" target="o0Cqb0LcrTPR-CG-9lOc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0Cqb0LcrTPR-CG-9lOc-4" value="La interfaz lee el comando" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0Cqb0LcrTPR-CG-9lOc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0Cqb0LcrTPR-CG-9lOc-7" target="o0Cqb0LcrTPR-CG-9lOc-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0Cqb0LcrTPR-CG-9lOc-10" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o0Cqb0LcrTPR-CG-9lOc-9">
+          <mxGeometry x="0.2095" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0Cqb0LcrTPR-CG-9lOc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0Cqb0LcrTPR-CG-9lOc-7" target="o0Cqb0LcrTPR-CG-9lOc-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0Cqb0LcrTPR-CG-9lOc-12" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o0Cqb0LcrTPR-CG-9lOc-11">
+          <mxGeometry x="0.6818" y="2" relative="1" as="geometry">
+            <mxPoint y="-45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0Cqb0LcrTPR-CG-9lOc-7" value="Esta mal?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o0Cqb0LcrTPR-CG-9lOc-13" value="Devuelve un mensaje indicando lo que esta mal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0Cqb0LcrTPR-CG-9lOc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0Cqb0LcrTPR-CG-9lOc-14" target="o0Cqb0LcrTPR-CG-9lOc-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0Cqb0LcrTPR-CG-9lOc-14" value="Accede al sistema operativo y resuelve la acción" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0Cqb0LcrTPR-CG-9lOc-15" value="Devuelve un mensaje al usuario indicando los cambios o confirmando la acción" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

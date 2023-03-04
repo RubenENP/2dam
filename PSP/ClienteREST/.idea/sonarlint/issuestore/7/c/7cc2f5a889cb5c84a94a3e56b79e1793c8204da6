@@ -1,0 +1,12 @@
+
+f	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ‡•Š
+k	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù»âÙşÿÿÿÿ
+s	java:S116	"YRename this field "name_newspaper" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôƒ…äøÿÿÿÿ
+k	java:S116
+"WRename this field "release_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€”íN
+h	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ªÎ´ÿÿÿÿÿ
+h	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥‘õÿÿÿÿÿ
+c	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ‡•Š
+h	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù»âÙşÿÿÿÿ
+G
+java:S1128"*Remove this unused import 'java.sql.Date'.(ÙÀ½Ê8ŸŞ–®É0

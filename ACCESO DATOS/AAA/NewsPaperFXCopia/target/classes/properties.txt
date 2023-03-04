@@ -1,0 +1,3 @@
+newspaperList: data/newspapers.txt
+articlesList: data/articles.txt
+articleTypeList: data/articleType.txt

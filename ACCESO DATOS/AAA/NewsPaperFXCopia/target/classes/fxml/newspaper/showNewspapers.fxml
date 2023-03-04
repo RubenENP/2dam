@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500" prefWidth="1050.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.newspapers.ShowNewspapersController">
+    <TableView fx:id="newspaperTable" layoutX="20.0" layoutY="58.0" onMouseClicked="#getArticle" prefHeight="331.0" prefWidth="351.0">
+        <columns>
+            <TableColumn fx:id="idNewspaperColumn" prefWidth="87.0" text="Id" />
+            <TableColumn fx:id="nombreNewspaperColumn" prefWidth="81.0" text="Nombre" />
+            <TableColumn fx:id="precioNewspaperColumn" prefWidth="87.0" text="Precio" />
+            <TableColumn fx:id="directorNewspaperColumn" prefWidth="95.0" text="Director" />
+        </columns>
+    </TableView>
+
+    <TableView fx:id="articlesTable" layoutX="442.0" layoutY="58.0" prefHeight="331.0" prefWidth="594.0">
+        <columns>
+            <TableColumn fx:id="idArticleColumn" prefWidth="33.0" text="Id" />
+            <TableColumn fx:id="titleArticleColumn" prefWidth="95.0" text="Title" />
+            <TableColumn fx:id="descriptionArticleColumn" prefWidth="185.0" text="Description" />
+            <TableColumn fx:id="idNewspaperArticleColumn" prefWidth="84.0" text="IdNewspaper" />
+            <TableColumn fx:id="idTypeArticleColumn" prefWidth="71.0" text="IdType" />
+            <TableColumn fx:id="authorArticleColumn" prefWidth="125.0" text="Author" />
+        </columns>
+    </TableView>
+   <Label layoutX="20.0" layoutY="26.0" text="NewsPapers" />
+   <Label layoutX="442.0" layoutY="26.0" text="Articles" />
+
+</AnchorPane>

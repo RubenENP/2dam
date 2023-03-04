@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RelacionNMRubenHita</string>
+    <string name="consolas">Consolas</string>
+    <string name="addconsola">addConsola</string>
+    <string name="ver_jugadores">Ver jugadores</string>
+    <string name="borrar">borrar</string>
+    <string name="ver_consolas">Ver Consolas</string>
+    <string name="nombre">Nombre</string>
+    <string name="marca">Marca</string>
+    <string name="precio">Precio</string>
+    <string name="a_adir_nconsola">Añadir \nconsola</string>
+    <string name="jugadores">Jugadores</string>
+    <string name="a_adir_njugador">Añadir \nJugador</string>
+    <string name="dinero">Dinero</string>
+</resources>

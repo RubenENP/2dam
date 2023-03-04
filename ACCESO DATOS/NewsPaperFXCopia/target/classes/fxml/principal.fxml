@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="root" prefHeight="1050.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.principal.PrincipalController">
+   <top>
+      <MenuBar fx:id="menu" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Options">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#backToLogin" text="Go back to login" />
+                  <MenuItem mnemonicParsing="false" onAction="#backToWelcome" text="Welcome pane" />
+                  <MenuItem mnemonicParsing="false" onAction="#exit" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="NewsPapers">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#addItem" text="Add Newspaper" />
+                  <MenuItem mnemonicParsing="false" onAction="#deleteNewspaper" text="Delete Newspaper" />
+                  <MenuItem mnemonicParsing="false" text="Update" />
+                  <MenuItem mnemonicParsing="false" onAction="#showNewspapers" text="Show all Newspapers" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Articles">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#addArticle" text="Add Articles" />
+                  <MenuItem mnemonicParsing="false" text="Delete Articles" />
+                  <MenuItem mnemonicParsing="false" text="Update" />
+                  <MenuItem mnemonicParsing="false" onAction="#showArticles" text="Show Articles" />
+               </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Readers">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Add Reader" />
+                  <MenuItem mnemonicParsing="false" onAction="#deleteReader" text="Delete Reader" />
+                  <MenuItem mnemonicParsing="false" onAction="#showReaders" text="Show Readers" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Purchases">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Add Purchase" />
+                  <MenuItem mnemonicParsing="false" text="Delete Purchase" />
+                  <MenuItem mnemonicParsing="false" text="Update" />
+                  <MenuItem mnemonicParsing="false" text="List Purchases" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Reviews">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/partidosFragment"
+        android:name="com.example.navigationrubenhita.ui.partidos.PartidosFragment"
+        android:label="fragment_partidos"
+        tools:layout="@layout/fragment_partidos" >
+        <action
+            android:id="@+id/partidos_to_main"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/partidos_to_grupos"
+            app:destination="@id/gruposFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.navigationrubenhita.ui.main.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/main_to_partidos"
+            app:destination="@id/partidosFragment"/>
+        <action
+            android:id="@+id/main_to_grupos"
+            app:destination="@id/gruposFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gruposFragment"
+        android:name="com.example.navigationrubenhita.ui.grupos.GruposFragment"
+        android:label="fragment_goleadores"
+        tools:layout="@layout/fragment_grupos" >
+        <action
+            android:id="@+id/grupos_to_main"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/grupos_to_partidos"
+            app:destination="@id/partidosFragment"/>
+    </fragment>
+</navigation>

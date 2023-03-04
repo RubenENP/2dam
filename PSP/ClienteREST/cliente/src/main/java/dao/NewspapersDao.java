@@ -1,0 +1,14 @@
+package dao;
+
+import domain.model.Newspaper;
+import io.reactivex.rxjava3.core.Single;
+import io.vavr.control.Either;
+
+import java.util.List;
+
+public interface NewspapersDao {
+    Single<Either<String, List<Newspaper>>> getAllNewspapers();
+    Single<Either<String, Newspaper>> getUnNewspaper(int id);
+    Single<Either<String, Newspaper>> postNewspaper(Newspaper newspaper);
+    Single<Either<String, Boolean>> deleteNewspaper(int id);
+}

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="499568fc-78b6-4038-b221-7ea669b245e8" name="Changes" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoNewspapers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/impl/DaoNewspapersImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/main/DIJavafx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/main/DIJavafx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/paths.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/paths.properties" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoNewspaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/impl/DaoNewspaperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/screens/newspaper/AddNewspaperController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/newspaper/addNewspaper.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/gsonutils/RuntimeTypeAdapterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/jsons/rick.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/jsons/rick1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/ui/pantallas/characters/CharactersState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/ui/pantallas/characters/CharactersViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/common/Screens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/common/Screens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/screens/principal/PrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/screens/principal/PrincipalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/principal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/dao/CharacterDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/dao/CharacterDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/dao/impl/CharacterDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/dao/impl/CharacterDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/modelo/characters/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/modelo/characters/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/modelo/characters/Origin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/modelo/characters/Origin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/modelo/characters/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/modelo/characters/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/ui/pantallas/characters/CharactersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/java/ui/pantallas/characters/CharactersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/resources/fxml/characters.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/src/main/resources/fxml/characters.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/dao/CharacterDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/dao/CharacterDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/dao/impl/CharacterDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/dao/impl/CharacterDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/fxml/characters.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/fxml/characters.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/modelo/characters/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/modelo/characters/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/modelo/characters/Origin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/modelo/characters/Origin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/ui/pantallas/characters/CharactersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSP/RickAndMortyAPI/target/classes/ui/pantallas/characters/CharactersController.class" afterDir="false" />
+>>>>>>> refs/remotes/origin/main
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Eyy3qwDeJCYl2aidlwxTr5dLmX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+<<<<<<< HEAD
+    "last_opened_file_path": "C:/Users/morar/OneDrive/Escritorio/2DAMCosas/ACCESO DATOS/NewsPaperFX",
+=======
+    "last_opened_file_path": "C:/Users/2dam/Desktop/2DAMCosas/ACCESO DATOS/NewsPaperFX",
+>>>>>>> refs/remotes/origin/main
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\2dam\Desktop\2DAMCosas\ACCESO DATOS\NewsPaperFX\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DIJavafx">
+    <configuration name="DIJavafx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.main.DIJavafx" />
+      <module name="NewsPaperFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Main" />
+      <module name="RickAndMortyAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DIJavafx" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="499568fc-78b6-4038-b221-7ea669b245e8" name="Changes" comment="" />
+      <created>1663581925657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663581925657</updated>
+      <workItem from="1663581927068" duration="2377000" />
+      <workItem from="1663600877087" duration="9168000" />
+      <workItem from="1663661994013" duration="963000" />
+      <workItem from="1663667261838" duration="6848000" />
+<<<<<<< HEAD
+      <workItem from="1663692492959" duration="2811000" />
+=======
+      <workItem from="1663741792603" duration="66000" />
+      <workItem from="1663760401876" duration="2128000" />
+>>>>>>> refs/remotes/origin/main
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.squareup.moshi.Moshi" memberName="adapterCache" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

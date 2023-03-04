@@ -1,0 +1,8 @@
+
+[
+java:S1854D">Remove this useless assignment to local variable "privateKey".(¤Õ½Ü8Ñ¸óÓç0
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(ÚÔêç
+L
+java:S1481D"/Remove this unused "privateKey" local variable.(¤Õ½Ü8Þ¸óÓç0
+n
+java:S1128	"LRemove this unused import 'org.bouncycastle.jcajce.provider.symmetric.ARC4'.(ä˜Ëðüÿÿÿÿ8à¸óÓç0
